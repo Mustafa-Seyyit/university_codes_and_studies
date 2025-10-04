@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-14 07:34:59 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTE0OzA3OjMyOjM1IMOWUzs0NDUz"/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTE0OzA3OjM0OjU5IMOWUzsxOzQ1Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, toplam, i" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="1"/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="i" start="100" end="1000" direction="inc" step="1">
+                <while expression="i&gt;x">
+                    <if expression="i%x==0">
+                        <then>
+                            <assign variable="toplam" expression="toplam+x"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <assign variable="x" expression="x+1"/>
+                </while>
+                <if expression="i==toplam">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="x" expression="1"/>
+                <assign variable="toplam" expression="0"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

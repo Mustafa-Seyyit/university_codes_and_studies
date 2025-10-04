@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-27 09:41:31 &#214;&#214;"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI3OzA5OjI5OjA3IMOWw5Y7NDU5NA=="/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI3OzA5OjQxOjMxIMOWw5Y7MTs0Njkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b&#246;l&#252;m" type="Real" array="False" size=""/>
+            <declare name="x, y" type="Integer" array="False" size=""/>
+            <assign variable="b&#246;l&#252;m" expression="1"/>
+            <output expression="&quot;say&#305;lar&#305; girin&quot;" newline="True"/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <while expression="x&gt;=y">
+                <assign variable="b&#246;l&#252;m" expression="b&#246;l&#252;m+1"/>
+                <assign variable="x" expression="x-y"/>
+            </while>
+            <output expression="&quot;kalan &quot; &amp; x &amp; &quot; b&#246;l&#252;m &quot; &amp; b&#246;l&#252;m-1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

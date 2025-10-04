@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 12:41:46 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI2OzEyOjI5OjMyIMOWUzs0NDU0"/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI2OzEyOjQxOjQ2IMOWUzsxOzQ1NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sa, n, neg, poz" type="Integer" array="False" size=""/>
+            <assign variable="sa" expression="0"/>
+            <assign variable="neg" expression="0"/>
+            <assign variable="poz" expression="0"/>
+            <while expression="sa&lt;=9">
+                <input variable="n"/>
+                <assign variable="sa" expression="sa+1"/>
+                <if expression="n&gt;0">
+                    <then>
+                        <assign variable="poz" expression="poz+1"/>
+                    </then>
+                    <else>
+                        <if expression="n&lt;0">
+                            <then>
+                                <assign variable="neg" expression="neg+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;toplam &quot; &amp; poz &amp; &quot; adet pozitif say&#305; ve toplam &quot; &amp; neg &amp; &quot; adet negatif say&#305; girdiniz&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

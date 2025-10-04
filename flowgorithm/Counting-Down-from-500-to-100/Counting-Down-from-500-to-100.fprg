@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 12:29:27 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI2OzEyOjIzOjAyIMOWUzs0NDQ1"/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI2OzEyOjI5OjI3IMOWUzsyOzQ1Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="501"/>
+            <output expression="&quot;500'den 100'e kadar say&#305;lar&quot;" newline="True"/>
+            <while expression="n&gt;100">
+                <assign variable="n" expression="n-1"/>
+                <output expression="n" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="batin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-14 09:34:04 &#214;S"/>
+        <attribute name="created" value="Z29raGE7R09LSEFOLVBDOzIwMjMtMTAtMTQ7MDk6MDk6NTYgw5ZTOzI1ODA="/>
+        <attribute name="edited" value="Z29raGE7R09LSEFOLVBDOzIwMjMtMTAtMTQ7MDk6MzQ6MDQgw5ZTOzE7MjY3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <declare name="counter" type="Integer" array="False" size=""/>
+            <declare name="exit" type="Boolean" array="False" size=""/>
+            <declare name="lastNegative" type="Boolean" array="False" size=""/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="remainder" type="Integer" array="False" size=""/>
+            <assign variable="total" expression="0"/>
+            <assign variable="counter" expression="0"/>
+            <assign variable="exit" expression="false"/>
+            <assign variable="lastNegative" expression="false"/>
+            <while expression="exit == false">
+                <input variable="x"/>
+                <if expression="x &lt; 0">
+                    <then>
+                        <if expression="lastNegative == true">
+                            <then>
+                                <assign variable="exit" expression="true"/>
+                            </then>
+                            <else>
+                                <assign variable="lastNegative" expression="true"/>
+                                <assign variable="remainder" expression="(x * -1) mod 3"/>
+                                <assign variable="total" expression="total + 1"/>
+                                <if expression="remainder == 0">
+                                    <then>
+                                        <assign variable="counter" expression="counter + 1"/>
+                                    </then>
+                                    <else/>
+                                </if>
+                            </else>
+                        </if>
+                    </then>
+                    <else>
+                        <assign variable="lastNegative" expression="false"/>
+                        <assign variable="remainder" expression="x mod 3"/>
+                        <assign variable="total" expression="total + 1"/>
+                        <if expression="remainder == 0">
+                            <then>
+                                <assign variable="counter" expression="counter + 1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="(counter / total) * 100" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

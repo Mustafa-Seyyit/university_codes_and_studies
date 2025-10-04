@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-08 03:16:04 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTA4OzAyOjU0OjQ4IMOWUzs0NDU5"/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTA4OzAzOjE2OjA0IMOWUzszOzQ1NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ob, kalan, sayi" type="Integer" array="False" size=""/>
+            <assign variable="kalan" expression="0"/>
+            <assign variable="sayi" expression="9"/>
+            <do expression="sayi&lt;100">
+                <assign variable="sayi" expression="sayi+1"/>
+                <assign variable="kalan" expression="sayi%10"/>
+                <assign variable="ob" expression="sayi/10"/>
+                <if expression="ob==2||ob==3||ob==5||ob==7">
+                    <then>
+                        <if expression="kalan=2||kalan==3||kalan==5||kalan==7">
+                            <then>
+                                <output expression="sayi" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

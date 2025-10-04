@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 01:17:53 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI2OzEyOjQxOjQ5IMOWUzs0NDU2"/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI2OzAxOjE3OjUzIMOWUzsyOzQ1NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m, f, bs, ks, toplam" type="Integer" array="False" size=""/>
+            <declare name="kontrol" type="Boolean" array="False" size=""/>
+            <assign variable="ks" expression="0"/>
+            <assign variable="m" expression="0"/>
+            <assign variable="bs" expression="0"/>
+            <assign variable="f" expression="0"/>
+            <assign variable="kontrol" expression="true"/>
+            <assign variable="toplam" expression="0"/>
+            <while expression="toplam&lt;=8">
+                <while expression="kontrol">
+                    <input variable="f"/>
+                    <if expression="f&gt;bs">
+                        <then>
+                            <if expression="f&gt;m">
+                                <then>
+                                    <assign variable="bs" expression="f"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="f&lt;m">
+                                <then>
+                                    <if expression="f&lt;ks">
+                                        <then>
+                                            <assign variable="ks" expression="f"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                    <assign variable="kontrol" expression="false"/>
+                </while>
+                <input variable="m"/>
+                <if expression="m&gt;=bs">
+                    <then>
+                        <if expression="m&gt;f">
+                            <then>
+                                <assign variable="bs" expression="m"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else>
+                        <if expression="m&lt;f">
+                            <then>
+                                <if expression="m&lt;ks">
+                                    <then>
+                                        <assign variable="ks" expression="m"/>
+                                    </then>
+                                    <else/>
+                                </if>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="kontrol" expression="true"/>
+                <assign variable="toplam" expression="toplam+2"/>
+            </while>
+            <output expression="&quot;en b&#252;y&#252;k say&#305; &quot; &amp; bs &amp; &quot; ve en k&#252;&#231;&#252;k say&#305; &quot; &amp; ks" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="w11"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-31 06:21:10 &#214;S"/>
+        <attribute name="created" value="dzExO0RFU0tUT1AtSVQxTDE4QzsyMDIzLTEwLTMxOzA1OjI5OjQ1IMOWUzsyNjc1"/>
+        <attribute name="edited" value="dzExO0RFU0tUT1AtSVQxTDE4QzsyMDIzLTEwLTMxOzA1OjM2OjI1IMOWUzsxOzI3Nzk="/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTMxOzA2OjIxOjEwIMOWUzsyOzQ1NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, i, a, b" type="Integer" array="False" size=""/>
+            <declare name="sayilar" type="Integer" array="True" size="3"/>
+            <for variable="i" start="0" end="2" direction="inc" step="1">
+                <output expression="&quot;L&#252;tfen bir say&#305; giriniz :&quot;" newline="True"/>
+                <input variable="sayi"/>
+                <assign variable="sayilar[i]" expression="sayi"/>
+            </for>
+            <for variable="i" start="0" end="5" direction="inc" step="1">
+                <for variable="b" start="0" end="1" direction="inc" step="1">
+                    <if expression="sayilar[b]&gt;sayilar[b+1]">
+                        <then/>
+                        <else>
+                            <assign variable="a" expression="sayilar[b]"/>
+                            <assign variable="sayilar[b]" expression="sayilar[b+1]"/>
+                            <assign variable="sayilar[b+1]" expression="a"/>
+                        </else>
+                    </if>
+                </for>
+            </for>
+            <for variable="i" start="2" end="0" direction="dec" step="1">
+                <output expression="sayilar[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

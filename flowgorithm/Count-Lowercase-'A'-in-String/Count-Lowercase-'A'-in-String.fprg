@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-03 11:47:51 &#214;&#214;"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTAzOzExOjQwOjM4IMOWw5Y7NDU3OQ=="/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTAzOzExOjQ3OjUxIMOWw5Y7Mjs0Njkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="metin" type="String" array="False" size=""/>
+            <declare name="i, sayac" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="0"/>
+            <input variable="metin"/>
+            <for variable="i" start="0" end="Len(metin)-1" direction="inc" step="1">
+                <if expression="Char(metin, i)==&quot;a&quot;">
+                    <then>
+                        <assign variable="sayac" expression="sayac+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="sayac" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

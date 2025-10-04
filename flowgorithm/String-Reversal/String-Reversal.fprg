@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-02 11:45:18 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTAyOzExOjI1OjA3IMOWUzs0NDQ2"/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTAyOzExOjQ1OjE4IMOWUzsyOzQ1NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="metin, nitem" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="nitem" expression="&quot; &quot;"/>
+            <input variable="metin"/>
+            <for variable="i" start="Len(metin)-1" end="0" direction="dec" step="1">
+                <assign variable="nitem" expression="nitem&amp;Char(metin, i)"/>
+            </for>
+            <output expression="nitem" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

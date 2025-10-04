@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-03 12:16:18 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTAzOzExOjQ4OjEwIMOWw5Y7NDU3Nw=="/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTAzOzEyOjE2OjE4IMOWUzsxOzQ1NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="metin, parcala" type="String" array="False" size=""/>
+            <declare name="i, tane, k" type="Integer" array="False" size=""/>
+            <input variable="metin"/>
+            <assign variable="i" expression="0"/>
+            <assign variable="tane" expression="1"/>
+            <assign variable="parcala" expression="&quot; &quot;"/>
+            <for variable="i" start="0" end="Len(metin) - 1" direction="inc" step="1">
+                <if expression="Char(metin, i)==&quot; &quot;">
+                    <then>
+                        <assign variable="tane" expression="tane+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <assign variable="i" expression="0"/>
+            <declare name="metindizisi" type="String" array="True" size="tane"/>
+            <for variable="k" start="0" end="len(metin)-1" direction="inc" step="1">
+                <if expression="Char(metin, k)==&quot; &quot;">
+                    <then>
+                        <assign variable="metindizisi[i]" expression="parcala"/>
+                        <assign variable="i" expression="i+1"/>
+                        <assign variable="parcala" expression="&quot; &quot;"/>
+                    </then>
+                    <else>
+                        <assign variable="parcala" expression="parcala&amp;char(metin, k)"/>
+                    </else>
+                </if>
+                <if expression="k==len(metin)-1">
+                    <then>
+                        <assign variable="metindizisi[i]" expression="parcala"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;girdi&#287;iniz c&#252;mle &quot;&amp;tane&amp;&quot; tane kelimeden olu&#351;mu&#351;tur&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

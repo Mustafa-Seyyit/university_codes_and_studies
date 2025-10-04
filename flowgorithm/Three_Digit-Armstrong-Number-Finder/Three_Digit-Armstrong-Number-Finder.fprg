@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-11 01:18:48 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTExOzExOjQ0OjMzIMOWw5Y7NDU3Nw=="/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTExLTExOzAxOjE4OjQ4IMOWUzsyOzQ1NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="100"/>
+            <while expression="x&lt;=999">
+                <assign variable="a" expression="(x%10) ^ 3"/>
+                <assign variable="b" expression="x/10"/>
+                <assign variable="b" expression="(b%10)"/>
+                <assign variable="b" expression="b^3"/>
+                <assign variable="c" expression="(x/100)"/>
+                <assign variable="c" expression="c^3"/>
+                <if expression="x==a+b+c">
+                    <then>
+                        <output expression="x" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="x" expression="x+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

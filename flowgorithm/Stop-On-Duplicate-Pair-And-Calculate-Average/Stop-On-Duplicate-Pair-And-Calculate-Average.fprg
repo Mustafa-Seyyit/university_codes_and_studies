@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-04 06:31:51 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuOzE5MjsyMDI1LTEwLTA0OzA2OjE5OjE3IMOWUzszNTMx"/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuOzE5MjsyMDI1LTEwLTA0OzA2OjMxOjUxIMOWUzsxOzM2MzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="True" size="2"/>
+            <declare name="y" type="Integer" array="True" size="2"/>
+            <declare name="k" type="Boolean" array="False" size=""/>
+            <declare name="t, s" type="Integer" array="False" size=""/>
+            <assign variable="t" expression="0"/>
+            <assign variable="s" expression="2"/>
+            <input variable="x[0]"/>
+            <input variable="y[0]"/>
+            <assign variable="t" expression="x[0]+y[0]"/>
+            <if expression="x[0]==y[0]">
+                <then>
+                    <output expression="t/s" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="k" expression="true"/>
+                    <while expression="k">
+                        <input variable="x[1]"/>
+                        <assign variable="s" expression="s+1"/>
+                        <assign variable="t" expression="t+x[1]"/>
+                        <if expression="x[1]==y[0]">
+                            <then>
+                                <assign variable="k" expression="false"/>
+                            </then>
+                            <else>
+                                <input variable="y[1]"/>
+                                <assign variable="s" expression="s+1"/>
+                                <assign variable="t" expression="t+y[1]"/>
+                                <if expression="x[1]==y[1]">
+                                    <then>
+                                        <assign variable="k" expression="false"/>
+                                    </then>
+                                    <else>
+                                        <input variable="x[0]"/>
+                                        <assign variable="s" expression="s+1"/>
+                                        <assign variable="t" expression="t+x[0]"/>
+                                        <if expression="x[0]==y[1]">
+                                            <then>
+                                                <assign variable="k" expression="false"/>
+                                            </then>
+                                            <else>
+                                                <input variable="y[0]"/>
+                                                <assign variable="s" expression="s+1"/>
+                                                <assign variable="t" expression="t+y[0]"/>
+                                                <if expression="x[0]==y[0]">
+                                                    <then>
+                                                        <assign variable="k" expression="false"/>
+                                                    </then>
+                                                    <else/>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </while>
+                    <output expression="t/s" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="mustafaseyyitdogan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-26 01:35:07 &#214;S"/>
+        <attribute name="created" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI2OzAxOjI2OjQ5IMOWUzs0NDU3"/>
+        <attribute name="edited" value="bXVzdGFmYXNleXlpdGRvZ2FuO01VU1RBRkEtTUFDQk9PSzsyMDIzLTEwLTI2OzAxOjM1OjA3IMOWUzsxOzQ1NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;sabit &#252;cret x olarak al&#305;nm&#305;&#351;t&#305;r&quot;" newline="True"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="maas" type="Integer" array="False" size=""/>
+            <output expression="&quot;i&#351;&#231;inin &#252;retti&#287;i par&#231;a say&#305;s&#305;n&#305; girin&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n&gt;0">
+                <then>
+                    <if expression="n&gt;=10">
+                        <then>
+                            <if expression="n&gt;=30">
+                                <then>
+                                    <assign variable="maas" expression="n*12000"/>
+                                </then>
+                                <else>
+                                    <assign variable="maas" expression="n*8000"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <assign variable="maas" expression="n*5000"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;x+&quot; &amp; maas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
