@@ -1,0 +1,11 @@
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\bin\Debug\O3.exe.config
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\bin\Debug\O3.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\bin\Debug\O3.pdb
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\obj\Debug\O3.csproj.AssemblyReference.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\obj\Debug\O3.Form1.resources
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\obj\Debug\O3.Properties.Resources.resources
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\obj\Debug\O3.csproj.GenerateResource.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\obj\Debug\O3.csproj.CoreCompileInputs.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\obj\Debug\O3.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\obj\Debug\O3.pdb
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta6\ListBox\O3\O3\obj\Debug\O3.exe.config

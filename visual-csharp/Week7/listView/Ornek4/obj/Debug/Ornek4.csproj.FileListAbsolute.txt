@@ -1,0 +1,10 @@
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\obj\Debug\Ornek4.csproj.AssemblyReference.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\obj\Debug\Ornek4.Form1.resources
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\obj\Debug\Ornek4.Properties.Resources.resources
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\obj\Debug\Ornek4.csproj.GenerateResource.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\obj\Debug\Ornek4.csproj.CoreCompileInputs.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\bin\Debug\Ornek4.exe.config
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\bin\Debug\Ornek4.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\bin\Debug\Ornek4.pdb
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\obj\Debug\Ornek4.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta7\listView\Ornek4\obj\Debug\Ornek4.pdb

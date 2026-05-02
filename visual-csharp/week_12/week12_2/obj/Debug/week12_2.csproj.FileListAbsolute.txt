@@ -1,0 +1,7 @@
+C:\Users\FurkanPC\source\repos\week12_2\bin\Debug\week12_2.exe.config
+C:\Users\FurkanPC\source\repos\week12_2\bin\Debug\week12_2.exe
+C:\Users\FurkanPC\source\repos\week12_2\bin\Debug\week12_2.pdb
+C:\Users\FurkanPC\source\repos\week12_2\obj\Debug\week12_2.csproj.AssemblyReference.cache
+C:\Users\FurkanPC\source\repos\week12_2\obj\Debug\week12_2.csproj.CoreCompileInputs.cache
+C:\Users\FurkanPC\source\repos\week12_2\obj\Debug\week12_2.exe
+C:\Users\FurkanPC\source\repos\week12_2\obj\Debug\week12_2.pdb

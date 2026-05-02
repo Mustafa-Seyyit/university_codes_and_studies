@@ -1,0 +1,11 @@
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\bin\Debug\comBox2.exe.config
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\bin\Debug\comBox2.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\bin\Debug\comBox2.pdb
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\obj\Debug\comBox2.csproj.AssemblyReference.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\obj\Debug\comBox2.Form1.resources
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\obj\Debug\comBox2.Properties.Resources.resources
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\obj\Debug\comBox2.csproj.GenerateResource.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\obj\Debug\comBox2.csproj.CoreCompileInputs.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\obj\Debug\comBox2.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\obj\Debug\comBox2.pdb
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta5\comBox2\obj\Debug\comBox2.exe.config

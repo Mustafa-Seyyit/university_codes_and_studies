@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\finalg\u00F6rsel\\hafta6\\ListBox\\O3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81C9E98D-0529-4AEC-959B-E57A965B6B7D}|O3\\O3.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\finalg\u00F6rsel\\hafta6\\listbox\\o3\\o3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81C9E98D-0529-4AEC-959B-E57A965B6B7D}|O3\\O3.csproj|solutionrelative:o3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81C9E98D-0529-4AEC-959B-E57A965B6B7D}|O3\\O3.csproj|c:\\users\\musta\\onedrive\\masa\u00FCst\u00FC\\finalg\u00F6rsel\\hafta6\\listbox\\o3\\o3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81C9E98D-0529-4AEC-959B-E57A965B6B7D}|O3\\O3.csproj|solutionrelative:o3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\finalg\u00F6rsel\\hafta6\\ListBox\\O3\\O3\\Form1.cs",
+              "RelativeDocumentMoniker": "O3\\Form1.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\finalg\u00F6rsel\\hafta6\\ListBox\\O3\\O3\\Form1.cs*",
+              "RelativeToolTip": "O3\\Form1.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAlwCUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T16:12:40.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\finalg\u00F6rsel\\hafta6\\ListBox\\O3\\O3\\Form1.cs",
+              "RelativeDocumentMoniker": "O3\\Form1.cs",
+              "ToolTip": "C:\\Users\\musta\\OneDrive\\Masa\u00FCst\u00FC\\finalg\u00F6rsel\\hafta6\\ListBox\\O3\\O3\\Form1.cs [Tasar\u0131m]*",
+              "RelativeToolTip": "O3\\Form1.cs [Tasar\u0131m]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T16:06:58.469Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\FurkanPC\source\repos\Week_13_1\bin\Debug\Week_13_1.exe.config
+C:\Users\FurkanPC\source\repos\Week_13_1\bin\Debug\Week_13_1.exe
+C:\Users\FurkanPC\source\repos\Week_13_1\bin\Debug\Week_13_1.pdb
+C:\Users\FurkanPC\source\repos\Week_13_1\bin\Debug\EntityFramework.dll
+C:\Users\FurkanPC\source\repos\Week_13_1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FurkanPC\source\repos\Week_13_1\bin\Debug\EntityFramework.xml
+C:\Users\FurkanPC\source\repos\Week_13_1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.csproj.AssemblyReference.cache
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.Form1.resources
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.NewRecordForm.resources
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.Properties.Resources.resources
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.UserDetail.resources
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.csproj.GenerateResource.cache
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.csproj.CoreCompileInputs.cache
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.csproj.CopyComplete
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.exe
+C:\Users\FurkanPC\source\repos\Week_13_1\obj\Debug\Week_13_1.pdb

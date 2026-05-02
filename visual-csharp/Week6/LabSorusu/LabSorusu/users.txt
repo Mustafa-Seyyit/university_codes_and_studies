@@ -1,0 +1,7 @@
+1,mehmet,yilmaz,24
+2,mustafa,kaya,36
+3,ahmet,demir,27
+4,ali,sahin,45
+5,yusuf,yildiz,56
+6,omer,ozturk,67
+7,abdullah,aydin,51

@@ -1,0 +1,10 @@
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\bin\Debug\Ders1.exe.config
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\bin\Debug\Ders1.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\bin\Debug\Ders1.pdb
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\obj\Debug\Ders1.csproj.AssemblyReference.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\obj\Debug\Ders1.Form1.resources
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\obj\Debug\Ders1.Properties.Resources.resources
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\obj\Debug\Ders1.csproj.GenerateResource.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\obj\Debug\Ders1.csproj.CoreCompileInputs.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\obj\Debug\Ders1.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\genel\Ders1\obj\Debug\Ders1.pdb

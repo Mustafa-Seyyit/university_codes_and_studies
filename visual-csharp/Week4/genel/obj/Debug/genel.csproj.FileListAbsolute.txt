@@ -1,0 +1,11 @@
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\bin\Debug\genel.exe.config
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\bin\Debug\genel.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\bin\Debug\genel.pdb
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\obj\Debug\genel.csproj.AssemblyReference.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\obj\Debug\genel.Properties.Resources.resources
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\obj\Debug\genel.csproj.GenerateResource.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\obj\Debug\genel.csproj.CoreCompileInputs.cache
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\obj\Debug\genel.exe
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\obj\Debug\genel.pdb
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\obj\Debug\genel.exe.config
+C:\Users\musta\OneDrive\Masaüstü\finalgörsel\hafta4\genel\obj\Debug\genel.lbl_1.resources
