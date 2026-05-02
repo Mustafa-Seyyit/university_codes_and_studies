@@ -1,0 +1,201 @@
+ID,Marka,Model,Segment,Yakit_Tipi,Motor_Hacmi,Beygir,Tork,0_100_Hizlanma,Maks_Hiz,Ort_Yakit,Yil,Garanti,Fiyat_TL
+1,Citroen,C3,Hatchback,Benzin,1.7,88,105,18.2,189,3.9,2020,Yok,1.250.000
+2,Dacia,Sandero,Hatchback,Benzin,1.4,69,82,22.8,183,3.5,2024,Var,1.450.000
+3,Ferrari,296 GTB,Spor,Benzin,3.7,995,1194,2.5,340,37.3,2020,Yok,58.500.000
+4,Tesla,Model S,Sedan,Elektrik,0.0,243,364,6.7,241,0.0,2022,Yok,4.800.000
+5,Audi,Q7,SUV,Benzin,1.3,210,252,7.4,230,9.2,2023,Var,9.500.000
+6,Fiat,500,Hatchback,Benzin,1.4,109,130,14.9,196,4.7,2020,Yok,1.350.000
+7,Honda,Jazz,Hatchback,Benzin,1.1,93,111,18.5,191,3.5,2024,Var,1.750.000
+8,Renault,Taliant,Sedan,Dizel,1.9,141,211,11.5,207,4.7,2024,Var,1.950.000
+9,Ford,Focus,Sedan,Hibrit,1.8,148,177,12.3,209,5.4,2021,Yok,2.150.000
+10,Volvo,XC40,SUV,Hibrit,1.6,196,235,8.4,225,5.4,2023,Var,4.200.000
+11,Volkswagen,Touareg,Sedan,Benzin,1.7,125,150,13.7,201,5.0,2022,Var,3.600.000
+12,Dacia,Duster,SUV,LPG,1.5,168,201,9.5,216,8.0,2021,Yok,1.850.000
+13,Hyundai,Bayon,SUV,Benzin,1.8,173,207,10.3,217,7.0,2022,Yok,2.350.000
+14,Fiat,Doblo,Kamyonet,Dizel,2.1,131,196,13.5,203,5.3,2022,Var,1.650.000
+15,Volkswagen,Touareg,Sedan,Dizel,1.4,146,219,12.3,208,4.9,2023,Var,3.850.000
+16,Kia,Rio,Hatchback,Benzin,1.7,129,154,13.0,203,6.5,2021,Yok,1.550.000
+17,Skoda,Kamiq,SUV,Benzin,1.2,176,211,10.6,218,7.1,2022,Yok,2.450.000
+18,Honda,Civic,Sedan,Benzin,1.6,148,177,11.9,209,6.4,2021,Yok,2.100.000
+19,Volvo,XC90,SUV,Benzin,1.5,279,334,7.1,253,11.5,2023,Var,10.500.000
+20,Toyota,Prius,Sedan,Hibrit,1.7,155,186,10.9,211,4.3,2020,Yok,2.250.000
+21,BMW,X1,SUV,Dizel,1.2,207,310,7.2,229,6.9,2023,Var,4.850.000
+22,Kia,Sorento,Sedan,Benzin,1.5,108,129,14.5,196,5.4,2021,Yok,2.650.000
+23,Ferrari,296 GTB,Spor,Hibrit,2.5,932,1118,2.7,340,23.6,2021,Yok,58.000.000
+24,Ferrari,F8 Tributo,Spor,Dizel,3.0,920,1380,2.5,340,27.8,2024,Var,62.500.000
+25,Renault,Megane,Sedan,Benzin,1.2,95,114,17.4,191,3.5,2020,Yok,1.450.000
+26,Ford,Ranger,Kamyonet,Benzin,2.1,166,199,10.1,215,7.7,2021,Yok,2.550.000
+27,Opel,Crossland,Sedan,Dizel,1.9,148,222,11.8,209,5.8,2021,Yok,1.850.000
+28,Volvo,XC40,SUV,Benzin,1.9,264,316,6.5,248,10.2,2023,Var,4.350.000
+29,Ford,Puma,SUV,Benzin,1.6,146,175,11.0,208,5.9,2020,Yok,1.950.000
+30,Citroen,C3,Hatchback,Benzin,1.1,98,117,15.9,192,4.0,2021,Yok,1.300.000
+31,Kia,EV6,Sedan,Elektrik,0.0,108,162,13.7,196,0.0,2023,Var,3.250.000
+32,Mercedes,S Serisi,Sedan,Benzin,1.6,165,198,9.7,215,7.0,2024,Var,13.500.000
+33,Nissan,Juke,Sedan,Benzin,1.1,108,129,15.2,196,4.5,2020,Yok,1.650.000
+34,Honda,Civic,Sedan,Hibrit,1.4,122,146,13.3,200,4.6,2020,Yok,1.950.000
+35,Volkswagen,T-Roc,Sedan,Dizel,1.1,138,207,11.5,206,4.5,2023,Var,2.850.000
+36,Ford,Kuga,SUV,Benzin,1.1,165,198,10.5,215,6.7,2024,Var,3.450.000
+37,Toyota,Corolla,Sedan,Benzin,1.2,152,182,11.0,210,5.7,2021,Yok,1.850.000
+38,Honda,Accord,Sedan,Benzin,1.0,118,141,13.9,199,5.8,2023,Var,2.950.000
+39,Tesla,Model Y,Sedan,Elektrik,0.0,190,285,8.3,223,0.0,2023,Var,3.650.000
+40,Dacia,Spring,Hatchback,Elektrik,0.0,116,174,12.7,198,0.0,2021,Yok,1.150.000
+41,Honda,City,Sedan,Benzin,1.1,144,172,11.2,208,5.0,2024,Var,1.750.000
+42,Porsche,Taycan,Spor,Elektrik,0.0,950,1425,2.5,340,0.0,2024,Var,12.500.000
+43,Ferrari,F8 Tributo,Spor,Benzin,2.2,942,1130,2.5,340,34.3,2021,Yok,61.500.000
+44,Skoda,Octavia,Sedan,Benzin,1.6,128,153,13.2,202,5.7,2024,Var,2.250.000
+45,Skoda,Kodiaq,SUV,Benzin,1.3,189,226,8.5,223,7.9,2024,Var,3.650.000
+46,Fiat,Panda,Hatchback,Dizel,1.4,102,153,16.5,194,3.5,2022,Yok,1.250.000
+47,Ford,Focus,Sedan,Benzin,1.6,119,142,14.0,199,4.8,2023,Var,2.050.000
+48,Dacia,Duster,SUV,Benzin,1.3,138,165,13.0,206,6.7,2024,Var,1.950.000
+49,Hyundai,i30,Hatchback,Hibrit,1.2,93,111,18.4,191,3.5,2022,Var,1.650.000
+50,Citroen,C3,Hatchback,Benzin,1.3,69,82,24.0,183,4.5,2024,Var,1.350.000
+51,Mercedes,E Serisi,Sedan,Benzin,1.9,172,206,10.3,217,6.9,2020,Yok,6.850.000
+52,Volkswagen,Touareg,Sedan,Benzin,1.2,112,134,15.1,197,4.5,2022,Yok,3.550.000
+53,Honda,Civic,Sedan,Benzin,1.8,137,164,11.3,205,6.0,2023,Var,2.350.000
+54,Mercedes,S Serisi,Sedan,Dizel,1.2,219,328,7.7,233,7.2,2022,Var,14.200.000
+55,BMW,3 Serisi,Sedan,Benzin,1.5,217,260,8.6,232,8.9,2021,Yok,4.650.000
+56,Mercedes,A Serisi,Hatchback,Hibrit,1.4,117,140,15.1,199,4.7,2022,Yok,2.850.000
+57,Peugeot,308,Sedan,Dizel,1.7,138,207,11.8,206,5.2,2021,Yok,1.850.000
+58,Opel,Astra,Hatchback,Benzin,1.9,124,148,14.4,201,6.7,2021,Yok,1.650.000
+59,Toyota,Camry,Sedan,Benzin,1.8,128,153,12.8,202,6.4,2022,Var,3.850.000
+60,Hyundai,i30,Hatchback,Dizel,1.8,113,169,13.9,197,5.2,2021,Yok,1.550.000
+61,Hyundai,i20,Hatchback,Dizel,1.3,96,144,17.8,192,4.3,2023,Var,1.450.000
+62,Hyundai,i10,Hatchback,Benzin,1.4,104,124,15.5,194,4.0,2021,Yok,1.250.000
+63,Peugeot,508,Sedan,Benzin,1.4,118,141,15.1,199,5.4,2024,Var,2.850.000
+64,Toyota,Corolla,Sedan,Benzin,1.2,109,130,16.1,196,4.4,2022,Yok,1.750.000
+65,Nissan,Qashqai,SUV,Benzin,1.4,143,171,12.7,207,5.4,2022,Var,2.650.000
+66,Volkswagen,Passat,Sedan,Dizel,1.7,113,169,13.7,197,5.2,2020,Yok,2.150.000
+67,Volkswagen,Passat,Sedan,Benzin,1.1,130,156,13.1,203,5.1,2023,Var,2.850.000
+68,Fiat,500,Hatchback,Benzin,1.5,73,87,22.7,184,3.6,2022,Var,1.450.000
+69,Dacia,Duster,SUV,Benzin,1.4,144,172,12.5,208,6.6,2021,Yok,1.750.000
+70,Opel,Grandland,Sedan,Dizel,1.4,156,234,11.5,212,4.9,2022,Yok,2.450.000
+71,Skoda,Kodiaq,SUV,Benzin,1.5,133,159,12.4,204,5.4,2022,Yok,3.150.000
+72,Audi,Q7,SUV,Hibrit,1.3,228,273,7.8,236,6.5,2020,Yok,8.850.000
+73,Hyundai,Bayon,SUV,Dizel,1.2,144,216,11.0,208,3.8,2022,Yok,2.250.000
+74,Porsche,Taycan,Spor,Elektrik,0.0,1005,1507,2.5,340,0.0,2020,Yok,11.500.000
+75,Skoda,Octavia,Sedan,Benzin,1.5,117,140,13.7,199,5.7,2023,Var,2.150.000
+76,Toyota,C-HR,Sedan,Hibrit,1.8,163,195,9.7,214,5.7,2020,Yok,2.150.000
+77,Tesla,Model 3,Sedan,Elektrik,0.0,232,348,5.9,237,0.0,2024,Var,3.650.000
+78,BMW,X3,SUV,Benzin,1.8,196,235,9.0,225,9.3,2021,Yok,5.850.000
+79,Tesla,Model S,Sedan,Elektrik,0.0,219,328,6.7,233,0.0,2024,Var,4.650.000
+80,Dacia,Spring,Hatchback,Elektrik,0.0,102,153,15.7,194,0.0,2021,Yok,1.050.000
+81,Kia,Rio,Hatchback,Benzin,1.8,122,146,13.6,200,6.1,2022,Yok,1.450.000
+82,Ford,Fiesta,Hatchback,Dizel,1.2,97,145,16.7,192,4.3,2022,Yok,1.450.000
+83,Mercedes,C Serisi,Sedan,Benzin,1.7,186,223,9.5,222,7.0,2023,Var,4.850.000
+84,Nissan,Qashqai,SUV,Dizel,1.5,140,210,11.0,206,5.6,2024,Var,2.950.000
+85,Volvo,XC90,SUV,Benzin,1.9,276,331,6.8,252,10.9,2020,Yok,9.500.000
+86,Peugeot,2008,SUV,Dizel,1.9,168,252,10.9,216,5.8,2023,Var,2.650.000
+87,Dacia,Duster,SUV,Dizel,1.2,117,175,14.1,199,3.5,2023,Var,1.950.000
+88,Fiat,Doblo,Kamyonet,Dizel,2.8,158,237,11.4,212,7.4,2021,Yok,1.550.000
+89,Volvo,XC90,SUV,Dizel,1.7,255,382,6.0,245,8.0,2024,Var,11.500.000
+90,Tesla,Model 3,Sedan,Elektrik,0.0,160,240,9.0,213,0.0,2020,Yok,2.950.000
+91,Tesla,Model Y,Sedan,Elektrik,0.0,214,321,7.5,231,0.0,2022,Yok,3.350.000
+92,Nissan,Qashqai,SUV,Benzin,1.5,156,187,11.3,212,5.8,2020,Yok,2.350.000
+93,Hyundai,Bayon,SUV,Benzin,1.8,166,199,10.4,215,7.8,2020,Yok,1.950.000
+94,Volkswagen,Polo,Hatchback,Dizel,1.2,111,166,14.2,197,4.3,2024,Var,1.850.000
+95,Skoda,Octavia,Sedan,Benzin,1.7,119,142,14.4,199,5.0,2023,Var,2.150.000
+96,Opel,Corsa,Hatchback,Benzin,2.0,101,121,15.5,193,4.4,2021,Yok,1.450.000
+97,Volvo,XC60,SUV,Benzin,1.1,255,306,7.2,245,9.9,2021,Yok,6.850.000
+98,Renault,Taliant,Sedan,Benzin,1.8,137,164,12.8,205,6.5,2024,Var,1.850.000
+99,Honda,CR-V,SUV,Benzin,1.4,141,169,11.5,207,6.1,2024,Var,3.650.000
+100,Fiat,500,Hatchback,Benzin,1.8,63,75,25.1,181,4.8,2023,Var,1.550.000
+101,Citroen,C-Elysee,Sedan,Benzin,1.4,126,151,13.7,202,6.5,2021,Yok,1.450.000
+102,Dacia,Spring,Hatchback,Elektrik,0.0,106,159,14.5,195,0.0,2023,Var,1.250.000
+103,Skoda,Superb,Sedan,Hibrit,1.9,163,195,11.0,214,4.3,2022,Var,3.150.000
+104,Hyundai,Ioniq 5,Sedan,Elektrik,0.0,153,229,10.1,211,0.0,2023,Var,3.350.000
+105,Volvo,XC40,SUV,Hibrit,1.5,235,282,7.0,238,6.5,2020,Yok,3.850.000
+106,Kia,Ceed,Hatchback,Benzin,1.9,106,127,16.0,195,5.0,2022,Yok,1.650.000
+107,Volkswagen,Polo,Hatchback,Benzin,1.7,70,84,23.4,183,4.5,2021,Yok,1.550.000
+108,Citroen,C-Elysee,Sedan,Dizel,1.8,95,142,16.5,191,3.5,2023,Var,1.650.000
+109,Hyundai,i30,Hatchback,Benzin,1.4,95,114,17.4,191,4.3,2024,Var,1.750.000
+110,Dacia,Jogger,Sedan,Hibrit,1.7,122,146,13.1,200,3.5,2022,Yok,1.650.000
+111,Volkswagen,Passat,Sedan,Dizel,1.7,159,238,11.5,213,6.0,2020,Yok,2.250.000
+112,Porsche,Macan,Sedan,Dizel,2.0,407,610,4.4,295,12.0,2024,Var,14.500.000
+113,BMW,i4,Sedan,Elektrik,0.0,181,271,7.9,220,0.0,2021,Yok,4.650.000
+114,Renault,Clio,Hatchback,Benzin,1.1,83,99,18.9,187,3.5,2024,Var,1.450.000
+115,Renault,Taliant,Sedan,Benzin,1.6,124,148,13.9,201,4.9,2021,Yok,1.450.000
+116,Renault,Austral,SUV,Benzin,1.4,126,151,12.6,202,4.7,2023,Var,2.650.000
+117,Porsche,911,Spor,Dizel,3.2,937,1405,2.5,340,27.8,2020,Yok,58.500.000
+118,Mercedes,GLC,SUV,Dizel,1.1,283,424,5.7,254,8.5,2022,Yok,7.850.000
+119,Opel,Grandland,Sedan,Benzin,1.8,120,144,13.6,200,6.6,2021,Yok,2.250.000
+120,Skoda,Kamiq,SUV,Benzin,1.6,149,178,10.3,209,7.5,2022,Yok,2.350.000
+121,Volkswagen,Touareg,Sedan,Benzin,1.3,140,168,11.1,206,5.4,2021,Yok,3.450.000
+122,Audi,A3,Hatchback,Benzin,1.5,108,129,15.5,196,4.7,2023,Var,2.650.000
+123,Hyundai,i30,Hatchback,Dizel,1.7,89,133,18.4,189,4.1,2022,Var,1.650.000
+124,Citroen,C4,Hatchback,Dizel,1.1,108,162,14.7,196,3.5,2023,Var,1.850.000
+125,Kia,Rio,Hatchback,Hibrit,1.1,109,130,15.8,196,3.5,2020,Yok,1.350.000
+126,Renault,Austral,SUV,Hibrit,1.5,132,158,12.2,204,3.9,2020,Yok,2.250.000
+127,Dacia,Spring,Hatchback,Elektrik,0.0,98,147,15.0,192,0.0,2023,Var,1.250.000
+128,Honda,Jazz,Hatchback,Hibrit,1.6,97,116,16.1,192,3.5,2022,Var,1.650.000
+129,Skoda,Kodiaq,SUV,Dizel,2.0,179,268,9.7,219,5.9,2020,Yok,3.250.000
+130,Audi,Q3,SUV,Hibrit,1.7,238,285,8.0,239,6.1,2024,Var,5.850.000
+131,Skoda,Kamiq,SUV,Dizel,2.0,136,204,12.2,205,5.0,2023,Var,2.550.000
+132,Fiat,500,Hatchback,Dizel,1.3,85,127,19.7,188,3.5,2021,Yok,1.350.000
+133,Dacia,Sandero,Hatchback,Dizel,1.1,108,162,14.8,196,3.5,2023,Var,1.550.000
+134,Volvo,XC90,SUV,Benzin,1.7,196,235,8.8,225,8.1,2020,Yok,9.250.000
+135,Peugeot,5008,Sedan,Hibrit,1.6,116,139,14.8,198,3.5,2023,Var,3.250.000
+136,Dacia,Duster,SUV,LPG,1.4,144,172,12.0,208,5.4,2022,Var,1.850.000
+137,Opel,Astra,Hatchback,Dizel,1.3,78,117,20.0,186,3.5,2021,Yok,1.550.000
+138,BMW,X3,SUV,Benzin,1.6,222,266,7.0,234,9.9,2020,Yok,5.650.000
+139,Kia,Sportage,SUV,Dizel,2.0,132,198,12.1,204,5.2,2023,Var,3.650.000
+140,Volvo,S90,Sedan,Dizel,1.5,237,355,8.1,239,8.2,2024,Var,7.850.000
+141,Kia,Sportage,SUV,Dizel,1.9,153,229,11.0,211,6.2,2022,Yok,3.450.000
+142,Renault,Zoe,Hatchback,Elektrik,0.0,108,162,15.3,196,0.0,2024,Var,1.850.000
+143,Porsche,Cayenne,Sedan,Benzin,1.5,280,336,5.9,253,10.9,2023,Var,21.500.000
+144,Dacia,Spring,Hatchback,Elektrik,0.0,94,141,17.4,191,0.0,2023,Var,1.250.000
+145,Volkswagen,Touareg,Sedan,Dizel,1.6,124,186,12.9,201,5.1,2021,Yok,3.350.000
+146,Porsche,Panamera,Sedan,Benzin,2.0,380,456,5.3,286,15.0,2023,Var,22.500.000
+147,Mercedes,GLA,SUV,Benzin,1.1,246,295,7.9,242,9.0,2020,Yok,5.450.000
+148,Tesla,Model 3,Sedan,Elektrik,0.0,193,289,8.6,224,0.0,2024,Var,3.550.000
+149,Toyota,Prius,Sedan,Hibrit,1.4,150,180,11.5,210,3.8,2021,Yok,2.350.000
+150,Kia,Ceed,Hatchback,Benzin,1.7,123,147,13.8,201,6.5,2024,Var,1.850.000
+151,Dacia,Spring,Hatchback,Elektrik,0.0,93,139,17.0,191,0.0,2022,Var,1.150.000
+152,Porsche,Taycan,Spor,Elektrik,0.0,937,1405,2.5,340,0.0,2020,Yok,11.200.000
+153,Renault,Megane,Sedan,Hibrit,1.4,126,151,12.4,202,4.2,2020,Yok,1.650.000
+154,Tesla,Model 3,Sedan,Elektrik,0.0,205,307,8.1,228,0.0,2022,Yok,3.150.000
+155,Honda,CR-V,SUV,Benzin,1.4,143,171,11.0,207,6.2,2022,Var,3.450.000
+156,Audi,A4,Sedan,Benzin,1.1,186,223,9.8,222,7.5,2021,Yok,4.250.000
+157,Skoda,Octavia,Sedan,Benzin,1.5,112,134,14.3,197,4.7,2021,Yok,1.950.000
+158,Tesla,Model Y,Sedan,Elektrik,0.0,166,249,8.4,215,0.0,2024,Var,3.650.000
+159,Tesla,Model Y,Sedan,Elektrik,0.0,160,240,9.1,213,0.0,2024,Var,3.650.000
+160,Nissan,Qashqai,SUV,Dizel,1.8,162,243,9.8,214,5.5,2023,Var,2.850.000
+161,Porsche,911,Spor,Benzin,3.1,1045,1254,2.5,340,37.5,2021,Yok,59.500.000
+162,Toyota,C-HR,Sedan,Hibrit,1.3,159,190,10.7,213,5.0,2023,Var,2.350.000
+163,Honda,City,Sedan,Benzin,1.8,134,160,13.2,204,6.8,2023,Var,1.650.000
+164,Hyundai,Santa Fe,Sedan,Hibrit,1.2,149,178,10.6,209,3.8,2022,Var,3.250.000
+165,Mercedes,S Serisi,Sedan,Benzin,1.9,168,201,10.3,216,7.1,2020,Yok,12.500.000
+166,Skoda,Superb,Sedan,Dizel,1.1,138,207,11.7,206,5.1,2021,Yok,2.850.000
+167,Mercedes,GLC,SUV,Benzin,1.5,243,291,7.9,241,10.3,2022,Yok,7.650.000
+168,Porsche,Macan,Sedan,Benzin,1.8,342,410,5.1,274,12.4,2022,Var,14.800.000
+169,Hyundai,Ioniq 5,Sedan,Elektrik,0.0,109,163,15.1,196,0.0,2023,Var,3.350.000
+170,Dacia,Jogger,Sedan,Benzin,1.8,136,163,11.3,205,6.4,2020,Yok,1.550.000
+171,Kia,Sorento,Sedan,Benzin,1.8,139,166,12.9,206,5.7,2023,Var,3.450.000
+172,Hyundai,Tucson,SUV,Dizel,1.6,146,219,12.4,208,4.8,2020,Yok,2.350.000
+173,Citroen,C3,Hatchback,Hibrit,1.9,89,106,18.1,189,3.5,2023,Var,1.350.000
+174,Mercedes,A Serisi,Hatchback,Hibrit,1.3,183,219,9.2,221,4.4,2020,Yok,2.650.000
+175,Mercedes,GLA,SUV,Dizel,1.4,283,424,7.1,254,9.1,2023,Var,5.850.000
+176,Dacia,Spring,Hatchback,Elektrik,0.0,99,148,16.2,193,0.0,2024,Var,1.250.000
+177,Mercedes,GLA,SUV,Hibrit,1.8,237,284,7.5,239,7.7,2020,Yok,5.450.000
+178,Peugeot,308,Sedan,Benzin,1.4,157,188,10.2,212,6.4,2023,Var,2.250.000
+179,Peugeot,5008,Sedan,Benzin,1.1,164,196,9.9,214,7.5,2022,Var,3.250.000
+180,Tesla,Model 3,Sedan,Elektrik,0.0,205,307,7.6,228,0.0,2021,Yok,3.150.000
+181,Toyota,Corolla,Sedan,Hibrit,1.2,125,150,12.6,201,3.9,2022,Yok,1.750.000
+182,Dacia,Duster,SUV,Benzin,1.2,145,174,12.2,208,5.7,2024,Var,1.950.000
+183,Mercedes,GLC,SUV,Benzin,1.3,220,264,8.8,233,9.6,2020,Yok,7.250.000
+184,Audi,A3,Hatchback,Benzin,1.1,150,180,10.9,210,6.7,2020,Yok,2.350.000
+185,Toyota,Camry,Sedan,Dizel,1.1,107,160,16.0,195,3.8,2022,Var,3.650.000
+186,Porsche,Panamera,Sedan,Benzin,1.5,320,384,4.7,266,12.2,2022,Var,22.500.000
+187,Honda,City,Sedan,Benzin,1.5,151,181,12.0,210,5.7,2022,Yok,1.550.000
+188,Volvo,XC60,SUV,Hibrit,1.5,196,235,9.5,225,4.8,2020,Yok,6.650.000
+189,Opel,Astra,Hatchback,Benzin,1.1,111,133,15.1,197,5.0,2020,Yok,1.550.000
+190,Volvo,XC90,SUV,Dizel,1.3,219,328,7.8,233,6.7,2024,Var,11.500.000
+191,BMW,i4,Sedan,Elektrik,0.0,216,324,7.3,232,0.0,2024,Var,4.850.000
+192,Volkswagen,Tiguan,SUV,Benzin,1.9,172,206,9.6,217,8.3,2023,Var,3.450.000
+193,Volvo,XC60,SUV,Dizel,1.3,252,378,6.4,244,7.3,2020,Yok,6.950.000
+194,Porsche,911,Spor,Benzin,4.5,1035,1242,2.5,340,38.2,2020,Yok,59.500.000
+195,Mercedes,GLC,SUV,Benzin,1.6,268,321,6.6,249,10.2,2020,Yok,7.450.000
+196,Peugeot,508,Sedan,Dizel,1.9,117,175,14.6,199,5.6,2023,Var,2.550.000
+197,Opel,Mokka,SUV,Benzin,1.1,136,163,12.3,205,4.9,2022,Yok,2.150.000
+198,BMW,X1,SUV,Benzin,1.4,261,313,7.1,247,10.2,2024,Var,4.950.000
+199,Nissan,Micra,Hatchback,Benzin,1.9,77,92,22.0,185,4.0,2024,Var,1.550.000
+200,Audi,A6,Sedan,Dizel,1.9,180,270,9.1,220,5.7,2022,Yok,4.850.000
