@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Giriş Yap – CineVault</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🎬 CineVault</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="filmler.html">Filmler</a></li>
+      <li><a href="hakkinda.html">Hakkında</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+    <a href="giris.html" class="btn-nav active">Giriş Yap</a>
+  </nav>
+
+  <!-- GİRİŞ SAYFASI – Flexbox centered -->
+  <section class="auth-section">
+    <div class="auth-box">
+      <div class="auth-logo">🎬</div>
+      <h2>Hoş Geldiniz</h2>
+      <p class="auth-sub">Hesabınıza giriş yapın</p>
+
+      <form class="auth-form" onsubmit="handleLogin(event)">
+        <div class="form-group">
+          <label for="login-email">E-posta</label>
+          <input type="email" id="login-email" placeholder="ornek@mail.com" required />
+        </div>
+        <div class="form-group">
+          <label for="login-pass">Şifre</label>
+          <input type="password" id="login-pass" placeholder="••••••••" required />
+        </div>
+        <div class="remember-row">
+          <label class="checkbox-label">
+            <input type="checkbox" /> Beni Hatırla
+          </label>
+          <a href="#" class="forgot-link">Şifremi Unuttum</a>
+        </div>
+        <button type="submit" class="btn-primary full-width">Giriş Yap</button>
+      </form>
+
+      <div id="login-success" style="display:none;" class="success-msg">
+        ✅ Giriş başarılı! Yönlendiriliyorsunuz...
+      </div>
+
+      <div class="auth-divider">veya</div>
+
+      <div class="register-prompt">
+        Hesabınız yok mu? <a href="kayit.html">Kayıt Olun</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function handleLogin(e) {
+      e.preventDefault();
+      document.querySelector('.auth-form').style.display = 'none';
+      document.getElementById('login-success').style.display = 'block';
+      setTimeout(() => { window.location.href = 'index.html'; }, 1800);
+    }
+  </script>
+
+</body>
+</html>

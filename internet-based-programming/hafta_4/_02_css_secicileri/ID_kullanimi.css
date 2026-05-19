@@ -1,0 +1,17 @@
+#container {
+  max-width: 600px;
+  margin: 100px;
+  padding: 20px;
+}
+
+p {
+  background-color: red;
+}
+
+#container p {
+  background-color: green;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}

@@ -1,0 +1,13 @@
+.flex-container {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+}
+
+.flex-item {
+  background: coral;
+  border: 1px solid black;
+  padding: 20px;
+  /* sırasıyla grow, shrink ve basis */
+  flex: 1 0 0;
+}

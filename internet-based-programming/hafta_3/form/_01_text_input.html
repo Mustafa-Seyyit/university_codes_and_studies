@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <form>
+      <div id="field_name">
+        <label for="txtFirstName">Name</label>
+        <input
+          type="text"
+          id="txtFirstName"
+          placeholder="Enter your name"
+          name="name"
+        />
+      </div>
+      <br />
+      <div id="fiels_email">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" name="email" />
+      </div>
+      <br />
+      <div id="field_age">
+        <label for="age">Age</label>
+        <input type="text" id="age" placeholder="age" value="18" name="age" />
+      </div>
+      <br />
+      <div id="field_password">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          name="password"
+        />
+      </div>
+      <br />
+      <input type="submit" value="Submit" />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <br />
+    <br />
+    <br />
+    <form action="/giris">
+      <input type="text" name="username" placeholder="Kullanıcı Adı" />
+      <input type="password" name="password" placeholder="Şifre" />
+      <button type="submit">Gönder</button>
+    </form>
+    <br />
+    <br />
+    <br />
+    <form action="/register.php" method="POST">
+      <div id="field_name">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="name" />
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>

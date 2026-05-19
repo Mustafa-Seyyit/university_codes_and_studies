@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CineVault – Film Dünyası</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">🎬 CineVault</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Ana Sayfa</a></li>
+      <li><a href="filmler.html">Filmler</a></li>
+      <li><a href="hakkinda.html">Hakkında</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+    <a href="giris.html" class="btn-nav">Giriş Yap</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Haftanın Filmi</p>
+      <h1 class="hero-title">Sinema Büyüsünü<br>Keşfet</h1>
+      <p class="hero-sub">En iyi filmler, incelemeler ve öneriler tek bir yerde.</p>
+      <div class="hero-btns">
+        <a href="filmler.html" class="btn-primary">Filmlere Göz At</a>
+        <a href="hakkinda.html" class="btn-ghost">Biz Kimiz?</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span>★ 9.2</span>
+      <small>IMDB Puanı</small>
+    </div>
+  </section>
+
+  <!-- ÖZELLIKLER – Flexbox row -->
+  <section class="features">
+    <div class="feature-card">
+      <div class="feat-icon">🎥</div>
+      <h3>Geniş Arşiv</h3>
+      <p>Klasiklerden güncel yapımlara binlerce film bilgisi.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feat-icon">⭐</div>
+      <h3>Kullanıcı Yorumları</h3>
+      <p>Gerçek izleyicilerin samimi değerlendirmeleri.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feat-icon">🔔</div>
+      <h3>Yeni Film Bildirimi</h3>
+      <p>Vizyona giren filmleri anında öğren.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feat-icon">🎞️</div>
+      <h3>Fragman İzle</h3>
+      <p>Seçili filmlerin fragmanlarına hızlıca ulaş.</p>
+    </div>
+  </section>
+
+  <!-- ÖNE ÇIKAN FİLMLER – Flexbox wrap -->
+  <section class="section-featured">
+    <h2 class="section-title">Öne Çıkan Filmler</h2>
+    <div class="film-grid">
+      <div class="film-card">
+        <div class="film-poster" style="background: linear-gradient(135deg,#1a1a2e,#16213e);">
+          <span class="film-genre">Bilim Kurgu</span>
+          <span class="film-rating">★ 8.8</span>
+        </div>
+        <div class="film-info">
+          <h4>Interstellar</h4>
+          <p>Christopher Nolan · 2014</p>
+        </div>
+      </div>
+      <div class="film-card">
+        <div class="film-poster" style="background: linear-gradient(135deg,#2d1b69,#11998e);">
+          <span class="film-genre">Dram</span>
+          <span class="film-rating">★ 9.3</span>
+        </div>
+        <div class="film-info">
+          <h4>The Shawshank Redemption</h4>
+          <p>Frank Darabont · 1994</p>
+        </div>
+      </div>
+      <div class="film-card">
+        <div class="film-poster" style="background: linear-gradient(135deg,#c94b4b,#4b134f);">
+          <span class="film-genre">Gerilim</span>
+          <span class="film-rating">★ 8.5</span>
+        </div>
+        <div class="film-info">
+          <h4>Inception</h4>
+          <p>Christopher Nolan · 2010</p>
+        </div>
+      </div>
+      <div class="film-card">
+        <div class="film-poster" style="background: linear-gradient(135deg,#373b44,#4286f4);">
+          <span class="film-genre">Aksiyon</span>
+          <span class="film-rating">★ 8.1</span>
+        </div>
+        <div class="film-info">
+          <h4>The Dark Knight</h4>
+          <p>Christopher Nolan · 2008</p>
+        </div>
+      </div>
+    </div>
+    <div class="center-btn">
+      <a href="filmler.html" class="btn-primary">Tüm Filmleri Gör</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">🎬 CineVault</div>
+      <p>© 2026 CineVault – Tüm hakları saklıdır.</p>
+      <div class="footer-links">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="filmler.html">Filmler</a>
+        <a href="iletisim.html">İletişim</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+div.section_p > p:nth-child(even) {
+  background-color: yellow;
+}
+
+div.section_p > p:nth-child(odd) {
+  background-color: purple;
+}

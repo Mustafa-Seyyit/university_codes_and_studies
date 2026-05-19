@@ -1,0 +1,30 @@
+.flex-container {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+}
+
+.flex-item {
+  background: coral;
+  border: 1px solid black;
+  padding: 20px;
+  flex: 1;
+}
+
+.item-3 {
+  order: 0;
+}
+.item-2 {
+  order: 1;
+}
+.item-4 {
+  order: 2;
+}
+
+.item-5 {
+  order: 3;
+}
+
+.item-1 {
+  order: 4;
+}

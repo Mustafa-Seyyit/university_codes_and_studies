@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head></head>
+  <body>
+    <form>
+      <label for="color">Color</label>
+      <input type="color" name="color" id="color" value="#a8b2c4" />
+    </form>
+    <form>
+      <label for="tarih">Tarih :</label>
+      <input type="date" name="date" id="tarih" value="2004-01-09" />
+    </form>
+    <form>
+      <label for="zaman">saat :</label>
+      <input type="time" name="time" id="zaman" value="08:28" />
+    </form>
+    <form>
+      <label for="hafta">hafta :</label>
+      <input type="week" name="week" id="hafta" value="2004-W01" />
+    </form>
+    <form>
+      <label for="ay">Ay :</label>
+      <input type="month" name="month" id="ay" value="2004-01" />
+    </form>
+
+    <form>
+      <label for="range">Range :</label>
+      <input
+        type="range"
+        name="range"
+        id="range"
+        min="0"
+        max="100"
+        step="1"
+        oninput="out.textContent = this.value"
+      />
+      <label id="out">50</label>
+    </form>
+    <form>
+      <label for="age">Age :</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        min="0"
+        max="85"
+        value="22"
+        step="1"
+      />
+    </form>
+    <br /><br />
+    <form>
+      <label for="url">
+        <input type="url" name="url" id="url" />
+      </label>
+      <br /><br /><br />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>

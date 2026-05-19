@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İletişim | Kod Avı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="menu">
+      <a class="logo" href="index.html">Kod Avı</a>
+      <div class="menu-links">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="oyun.html">Oyunu Oyna</a>
+        <a href="kurallar.html">Kurallar</a>
+        <a href="iletisim.html">İletişim</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-layout">
+      <div class="contact-info">
+        <h1>İletişim Formu</h1>
+        <p>Oyun hakkında görüş, öneri veya hata bildirimi göndermek için formu doldurabilirsin.</p>
+      </div>
+
+      <form class="contact-form">
+        <label for="name">Ad Soyad</label>
+        <input type="text" id="name" name="name" placeholder="Adınızı yazın" required>
+
+        <label for="email">E-posta</label>
+        <input type="email" id="email" name="email" placeholder="ornek@mail.com" required>
+
+        <label for="topic">Konu</label>
+        <select id="topic" name="topic">
+          <option>Öneri</option>
+          <option>Hata Bildirimi</option>
+          <option>Genel Mesaj</option>
+        </select>
+
+        <label for="messageBox">Mesaj</label>
+        <textarea id="messageBox" name="messageBox" rows="5" placeholder="Mesajınızı yazın"></textarea>
+
+        <button class="button" type="submit">Gönder</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>İnternet Tabanlı Programlama Projesi</p>
+  </footer>
+</body>
+</html>

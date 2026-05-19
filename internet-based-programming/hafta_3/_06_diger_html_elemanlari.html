@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head></head>
+  <body>
+    <audio src="music.mp3"></audio>
+
+    <audio controls>
+      <source src="music.mp3" />
+    </audio>
+
+    <audio controls>
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio controls>
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <audio autoplay muted></audio>
+    <audio loop></audio>
+
+    <audio controls>
+      <source src="song1.mp3" type="audio/mp3" />
+    </audio>
+
+    <audio controls autoplay src="song1.mp3" muted></audio>
+
+    <audio src="song1.mp3" controls loop></audio>
+
+    <figure>
+      <figcaption>Listen to Song</figcaption>
+      <audio src="song1.mp3" controls></audio>
+      <p><a href="./song1.mp3">Download Audio</a></p>
+    </figure>
+
+    <video src="video1.mov" controls autoplay></video>
+    <video
+      src="video1.mov"
+      controls
+      autoplay
+      width="400px"
+      height="400px"
+    ></video>
+
+    <h1>Image Map</h1>
+    <img src="./computer.jpg" alt="" usemap="#computermap" />
+    <map name="computermap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        href="computer.html"
+        alt="computer"
+      />
+
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        href="phone.html"
+        alt="phone"
+      />
+
+      <area
+        shape="circle"
+        coords="337,300,45"
+        href="coffee.html"
+        alt="Coffee"
+      />
+    </map>
+  </body>
+</html>

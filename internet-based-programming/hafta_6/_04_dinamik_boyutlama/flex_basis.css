@@ -1,0 +1,16 @@
+.flex-container {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+}
+
+.flex-item {
+  background: coral;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.item-3 {
+  flex-basis: 200px;
+  flex-shrink: 0;
+}

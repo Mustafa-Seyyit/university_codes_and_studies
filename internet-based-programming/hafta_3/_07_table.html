@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <table>
+      <colgroup>
+        <!-- First Name Sütunu -->
+        <col style="background-color: red" />
+
+        <!-- Last Name Sütunu -->
+        <col />
+        <!-- Email Sütunu -->
+        <col />
+
+        <!-- Telephone Numbers Sütunları için 2 tane -->
+        <col style="background-color: yellowgreen" />
+        <col style="background-color: yellowgreen" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th colspan="2">Telephone Numbers</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Joshua</td>
+          <td>Bell</td>
+          <td>joshua@gmail.com</td>
+          <td>0555 555 55 55</td>
+          <td>0555 555 55 50</td>
+        </tr>
+        <tr>
+          <td>Anne-Sophie</td>
+          <td>Mutter</td>
+          <td>anne@gmail.com</td>
+          <td rowspan="2" colspan="2">No Phone Numbers</td>
+        </tr>
+        <tr>
+          <td>Max</td>
+          <td>Verstappen</td>
+          <td>verstappen@gmail.com</td>
+          <!-- <td>No Phone Numbers</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

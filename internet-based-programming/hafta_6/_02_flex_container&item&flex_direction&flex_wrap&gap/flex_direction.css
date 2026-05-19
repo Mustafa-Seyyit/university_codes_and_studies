@@ -1,0 +1,12 @@
+.flex-item {
+  height: 200px;
+  width: 200px;
+  background-color: coral;
+  border: 1px solid black;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row; /*belirtilmesede row dur.*/
+  background-color: #ccc;
+}

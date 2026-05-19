@@ -1,0 +1,7 @@
+div.section_p > p {
+  background-color: yellow;
+}
+
+div.section_p > p:not(:nth-child(1)) {
+  background-color: blue;
+}

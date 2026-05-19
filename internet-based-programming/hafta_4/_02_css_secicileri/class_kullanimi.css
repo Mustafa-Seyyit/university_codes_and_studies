@@ -1,0 +1,14 @@
+.sporty {
+  color: red;
+}
+.casual {
+  color: blue;
+}
+.formal {
+  color: purple;
+}
+
+.sporty,
+.casual {
+  font-size: 35px;
+}

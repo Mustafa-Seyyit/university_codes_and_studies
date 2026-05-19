@@ -1,0 +1,43 @@
+{
+  "orderId": "ORD123456",
+  "orderDate": "2025-04-27T19:30:00Z",
+  "customer": {
+    "customerId": "CUST7890",
+    "name": "Ahmet Yılmaz",
+    "email": "ahmet.yilmaz@example.com",
+    "address": {
+      "street": "Atatürk Caddesi No:5",
+      "city": "İstanbul",
+      "postalCode": "34000",
+      "country": "Türkiye"
+    }
+  },
+  "items": [
+    {
+      "productId": "PRD1001",
+      "name": "Kablosuz Kulaklık",
+      "quantity": 2,
+      "price": 899.99,
+      "categories": ["Elektronik", "Ses Sistemleri"]
+    },
+    {
+      "productId": "PRD1002",
+      "name": "Laptop Çantası",
+      "quantity": 1,
+      "price": 299.99,
+      "categories": ["Bilgisayar Aksesuarları"]
+    }
+  ],
+  "payment": {
+    "method": "Credit Card",
+    "transactionId": "TRX56789",
+    "paid": true
+  },
+  "shipment": {
+    "shipped": true,
+    "trackingNumber": "TRACK12345",
+    "carrier": "Yurtiçi Kargo",
+    "estimatedDelivery": "2025-04-30"
+  },
+  "notes": null
+}

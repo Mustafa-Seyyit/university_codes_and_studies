@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Specifity</title>
+    <style>
+      /* bir div'in içinde herhangi bir seviyede yer alan p etiketleri. class'ı id'si fark etmeksizin tümü */
+      div p {
+        background-color: gray;
+      }
+      /* Sadece div'in direkt altında çocuk olarak yer alan p etiketlerine uygulanır. örneğin div'in içinde bir span etiketi var ve onun da içinde p etiketi varsa bu p etiketine uygulanmaz. */
+      div > p {
+        background-color: aqua;
+      }
+      /* p ile aynı seviyede yer alan div etiketlerine uygulanır. */
+      p ~ div {
+        background-color: red;
+      }
+      /* p etiketinden sonra yazılmış aynı seviyede div elementleri varsa onlara uygulanır. */
+      p + div {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum id aliquid
+      vero tempora sit fugiat, minus repudiandae cumque vitae quos enim qui
+      harum cum, laborum, quis magni quasi atque culpa?
+    </p>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+        porro. At aliquam a ducimus eaque ut. Accusamus aperiam delectus earum
+        deserunt veritatis et harum magnam, explicabo porro doloribus, aut
+        natus?
+      </p>
+      <span>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, est ex.
+          Quibusdam laborum optio quos neque, atque eveniet. Aut non illo totam
+          itaque doloremque numquam fugit debitis dolorem deserunt enim!
+        </p>
+      </span>
+    </div>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+      ducimus suscipit adipisci harum earum dolores? Eos atque reprehenderit
+      dolor laboriosam explicabo obcaecati possimus soluta iure! Veniam
+      similique possimus quas architecto.
+    </p>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat
+      reiciendis in magni, commodi molestias laudantium error, fuga obcaecati
+      ratione enim illum! Veritatis repellendus, unde molestias rem culpa
+      aperiam eius.
+    </div>
+  </body>
+</html>

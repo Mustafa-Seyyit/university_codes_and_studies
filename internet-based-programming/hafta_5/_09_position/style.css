@@ -1,0 +1,49 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 {
+  position: static;
+}
+
+.box-2 {
+  position: relative;
+  left: 40px;
+  top: 30px;
+}
+
+.box-3 {
+  position: fixed;
+  /* Spesifik olarak konumunu belirtiyoruz. Üstten 30px aşağıda soldan 400px içeride olsun */
+  top: 30px;
+  left: 400px;
+  z-index: 1;
+}
+
+.box-4 {
+  position: sticky;
+
+  top: 100px;
+}
+
+.box-5 {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  top: 50px;
+  left: 75px;
+  background-color: coral;
+}
+
+.box-6 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

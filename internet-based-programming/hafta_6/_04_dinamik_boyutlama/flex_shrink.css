@@ -1,0 +1,17 @@
+.flex-container {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+  /* flex-wrap: nowrap; */
+}
+
+.flex-item {
+  background: coral;
+  border: 1px solid black;
+  padding: 20px;
+  width: 150px;
+}
+
+.item-1 {
+  flex-shrink: 2;
+}

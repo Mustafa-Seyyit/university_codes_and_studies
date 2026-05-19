@@ -1,0 +1,9 @@
+h2 {
+  color: red;
+  font-size: 30px;
+}
+a {
+  color: blue;
+  /*link default olarak altı çizili gelir bunu kaldırma yapıyoruz*/
+  text-decoration: none;
+}

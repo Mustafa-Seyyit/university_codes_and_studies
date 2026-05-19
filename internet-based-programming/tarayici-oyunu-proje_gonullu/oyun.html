@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oyunu Oyna | Kod Avı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="menu">
+      <a class="logo" href="index.html">Kod Avı</a>
+      <div class="menu-links">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="oyun.html">Oyunu Oyna</a>
+        <a href="kurallar.html">Kurallar</a>
+        <a href="iletisim.html">İletişim</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="game-page">
+    <section class="game-layout">
+      <div class="score-panel">
+        <h1>Oyunu Oyna</h1>
+        <p>Puan: <strong id="score">0</strong></p>
+        <p>Süre: <strong id="time">30</strong> saniye</p>
+        <button id="startBtn" class="button">Başlat</button>
+        <button id="resetBtn" class="secondary-button">Sıfırla</button>
+        <p id="message" class="message">Başlamak için butona tıkla.</p>
+      </div>
+
+      <div class="game-area" id="gameArea">
+        <button id="target" class="target" disabled>&lt;/&gt;</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>İnternet Tabanlı Programlama Projesi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

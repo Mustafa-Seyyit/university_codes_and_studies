@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kayıt Ol – CineVault</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🎬 CineVault</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="filmler.html">Filmler</a></li>
+      <li><a href="hakkinda.html">Hakkında</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+    <a href="giris.html" class="btn-nav">Giriş Yap</a>
+  </nav>
+
+  <section class="auth-section">
+    <div class="auth-box">
+      <div class="auth-logo">🎬</div>
+      <h2>Hesap Oluştur</h2>
+      <p class="auth-sub">Ücretsiz kayıt ol, filmleri keşfet</p>
+
+      <form class="auth-form" id="register-form" onsubmit="handleRegister(event)">
+
+        <div class="form-group">
+          <label for="reg-name">Ad Soyad</label>
+          <input type="text" id="reg-name" placeholder="Adınız ve soyadınız" required />
+        </div>
+
+        <div class="form-group">
+          <label for="reg-email">E-posta</label>
+          <input type="email" id="reg-email" placeholder="ornek@mail.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="reg-pass">Şifre</label>
+          <input type="password" id="reg-pass" placeholder="En az 6 karakter" minlength="6" required />
+        </div>
+
+        <div class="form-group">
+          <label for="reg-pass2">Şifre Tekrar</label>
+          <input type="password" id="reg-pass2" placeholder="Şifrenizi tekrar girin" required />
+        </div>
+
+        <div class="remember-row" style="margin-bottom:20px;">
+          <label class="checkbox-label">
+            <input type="checkbox" id="kvkk" required />
+            <span>Kullanım koşullarını kabul ediyorum</span>
+          </label>
+        </div>
+
+        <div id="error-msg" class="error-msg" style="display:none;"></div>
+
+        <button type="submit" class="btn-primary full-width">Kayıt Ol</button>
+      </form>
+
+      <div id="register-success" style="display:none;" class="success-msg">
+        ✅ Kayıt başarılı! Giriş sayfasına yönlendiriliyorsunuz...
+      </div>
+
+      <div class="auth-divider">veya</div>
+
+      <div class="register-prompt">
+        Zaten hesabınız var mı? <a href="giris.html">Giriş Yapın</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function handleRegister(e) {
+      e.preventDefault();
+
+      const pass  = document.getElementById('reg-pass').value;
+      const pass2 = document.getElementById('reg-pass2').value;
+      const errorMsg = document.getElementById('error-msg');
+
+      // Şifre eşleşme kontrolü
+      if (pass !== pass2) {
+        errorMsg.style.display = 'block';
+        errorMsg.textContent = '❌ Şifreler eşleşmiyor. Lütfen tekrar deneyin.';
+        return;
+      }
+
+      errorMsg.style.display = 'none';
+
+      // Başarılı kayıt
+      document.getElementById('register-form').style.display = 'none';
+      document.getElementById('register-success').style.display = 'block';
+
+      setTimeout(() => {
+        window.location.href = 'giris.html';
+      }, 2000);
+    }
+  </script>
+
+</body>
+</html>

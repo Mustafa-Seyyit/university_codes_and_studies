@@ -1,0 +1,23 @@
+.none-el {
+  /* Görünmez yapar ve sayfanın akışından siler. sanki hiç yokmuş gibi */
+  display: none;
+}
+
+.hidden-el {
+  /* Görünmez yapar fakat sayfanın akışından silmez orada bir nesne vardır hala */
+  visibility: hidden;
+}
+
+p {
+  display: inline;
+}
+
+a {
+  display: inline-block;
+  background: lightblue;
+  border: blue solid 1px;
+  padding: 10px;
+  margin: 20px 10px;
+  width: 200px;
+  height: 100px;
+}

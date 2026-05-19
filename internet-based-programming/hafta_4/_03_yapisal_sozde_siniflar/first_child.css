@@ -1,0 +1,7 @@
+div.section_p > p:first-child {
+  background-color: yellow;
+}
+
+div.section_p > p {
+  background-color: black;
+}

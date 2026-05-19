@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(#0288d1, #01579b);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.badge {
+  background-color: #4caf50;
+  position: absolute;
+  top: -17px;
+  right: -17px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px 10px;
+}

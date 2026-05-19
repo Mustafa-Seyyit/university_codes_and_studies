@@ -1,0 +1,1 @@
+CineVault, internet tabanlı programlama dersi için geliştirilmiş modern ve responsive bir film keşif platformudur. HTML, CSS ve JavaScript kullanılarak hazırlanmıştır. Projede film listeleme, kategori filtreleme, giriş/kayıt sistemi ve iletişim sayfaları bulunmaktadır.

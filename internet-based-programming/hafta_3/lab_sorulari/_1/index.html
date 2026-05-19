@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viweport" content="width=device-width initial-scale=1.0" />
+    <tittle>HTML & CSS Sandbox</tittle>
+  </head>
+  <body>
+    <header>
+      <h1>Apartment Search</h1>
+      <img src="apartmentLogo.png" alt="logo" width="300" height="200" />
+    </header>
+
+    <main>
+      <form>
+        <div>
+          <label for="location">Location</label>
+          <input type="text" id="location" name="location" />
+        </div>
+        <br /><br /><br />
+        <div>
+          <label for="price">Price</label>
+          <input
+            type="range"
+            id="price"
+            name="price"
+            oninput="out.textContent = this.value"
+            min="5000"
+            max="20500"
+            step="500"
+          />
+          <label id="out">10500</label>
+        </div>
+        <br /><br /><br />
+        <div>
+          <label for="bedrooms">Bedrooms</label>
+          <input type="number" id="bedrooms" name="bedrooms" />
+        </div>
+        <br /><br /><br />
+        <div>
+          <label for="bathrooms">Bathrooms</label>
+          <input type="number" id="bathrooms" name="bathrooms" />
+        </div>
+        <br /><br /><br />
+        <div>
+          <label for="pets">
+            <input type="checkbox" id="pets" name="pets" />Pets
+          </label>
+        </div>
+        <br /><br /><br />
+        <div>
+          <label for="available">Date Available</label>
+          <input type="date" id="available" name="available" />
+        </div>
+        <br /><br /><br />
+        <div>
+          <p>CLICK <a href="#">HERE</a> TO READ THE TERMS AND CONDİTİONS</p>
+        </div>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+
+  border-width: 2px;
+  border-style: dashed;
+  border-color: red;
+
+  /*tek bir satırda yazma*/
+  border: 2px dashed red;
+}
+
+.box-1 {
+  border-top: 4px solid blue;
+}
+
+.box-1 {
+  border: none;
+  border-top: 4px solid blue;
+  border-bottom: 4px solid red;
+}
+
+.box-2 {
+  border-radius: 30px;
+}
+
+.box-3 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 20px;
+}

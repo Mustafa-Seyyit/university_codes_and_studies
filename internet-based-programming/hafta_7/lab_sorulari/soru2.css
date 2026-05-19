@@ -1,0 +1,29 @@
+.box {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+}
+
+.top-left {
+  background-color: yellow;
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  background-color: blue;
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  background-color: black;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  background-color: red;
+  bottom: 0;
+  right: 0;
+}

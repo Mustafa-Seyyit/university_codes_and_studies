@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head></head>
+  <body>
+    <form>
+      <label for="cars">Araba Seçiniz :</label>
+      <input type="text" list="car-list" id="cars" name="cars" />
+      <datalist id="car-list">
+        <option value="Mercedes"></option>
+        <option value="BMW"></option>
+        <option value="Audi"></option>
+        <option value="Toyota"></option>
+        <option value="Tesla"></option>
+      </datalist>
+    </form>
+    <form>
+      <label for="saat">Saat seçiniz :</label>
+      <input type="time" list="popularHours" />
+      <datalist id="popularHours">
+        <option value="10:00"></option>
+        <option value="11:00"></option>
+        <option value="12:00"></option>
+      </datalist>
+    </form>
+    <form>
+      <label for="tick">Tip Amount</label>
+      <input
+        type="range"
+        min="0"
+        max="100"
+        list="tickMarks"
+        id="tick"
+        name="tick"
+        oninput="out.textContent = this.value"
+      />
+      <label id="out">50</label>
+
+      <datalist id="tickMarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
+    </form>
+    <form>
+      <label for="color">Pick a Color</label>
+      <input type="color" name="color" id="color" list="red-colors" />
+      <datalist id="red-colors">
+        <option value="#FF0000"></option>
+        <option value="#800000"></option>
+        <option value="#8B0000"></option>
+        <option value="#A52A2A"></option>
+        <option value="#DC143C"></option>
+      </datalist>
+    </form>
+  </body>
+</html>
