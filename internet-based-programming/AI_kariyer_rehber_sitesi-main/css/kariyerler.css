@@ -1,0 +1,154 @@
+/* KARİYER GRUPLARI */
+
+.kariyer-gruplari {
+  background-color: #0f172a;
+}
+
+.grup-kartlari {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.grup-kart {
+  flex: 1 1 250px;
+  background-color: #1e293b;
+  border: 1px solid rgba(203, 213, 225, 0.18);
+  border-radius: 20px;
+  padding: 24px;
+}
+.kariyer-kart img {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.grup-kart:hover {
+  border-color: rgba(56, 189, 248, 0.55);
+  background-color: rgba(56, 189, 248, 0.08);
+}
+
+.grup-kart h3 {
+  margin-bottom: 10px;
+}
+
+/* KARİYER KARTLARI */
+
+.kariyerler {
+  background-color: #111827;
+}
+
+.kariyer-kartlari {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.kariyer-kart {
+  flex: 1 1 270px;
+  background-color: #1e293b;
+  border: 1px solid rgba(203, 213, 225, 0.18);
+  border-radius: 22px;
+  padding: 26px;
+}
+
+.kariyer-kart:hover {
+  border-color: rgba(56, 189, 248, 0.55);
+  background-color: rgba(56, 189, 248, 0.08);
+}
+
+.kariyer-kart img {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.kariyer-kart h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.kariyer-kart p {
+  margin-bottom: 16px;
+}
+
+.kariyer-kart h4 {
+  margin: 16px 0 8px;
+  color: #38bdf8;
+}
+
+.kariyer-kart ul {
+  color: #cbd5e1;
+}
+
+.kariyer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.kariyer-meta span {
+  background-color: rgba(139, 92, 246, 0.16);
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  color: #f8fafc;
+  padding: 6px 10px;
+  border-radius: 18px;
+  font-size: 13px;
+}
+
+/* KARAR ALANI */
+
+.karar-alani {
+  background-color: #0f172a;
+}
+
+.karar-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.karar-layout > div {
+  flex: 1;
+}
+
+.karar-layout h2 {
+  font-size: 34px;
+  margin-bottom: 16px;
+}
+
+.karar-list {
+  background-color: #1e293b;
+  border: 1px solid rgba(203, 213, 225, 0.18);
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.karar-list p {
+  margin-bottom: 12px;
+}
+
+.karar-list strong {
+  color: #38bdf8;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .karar-layout {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .kariyer-kart,
+  .grup-kart,
+  .karar-list {
+    padding: 22px;
+  }
+
+  .karar-layout h2 {
+    font-size: 28px;
+  }
+}

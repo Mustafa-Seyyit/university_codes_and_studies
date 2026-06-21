@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kariyer Testi | AI Career Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/test.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container navbar">
+        <a class="logo" href="index.html"
+          ><span class="logo-yazisi">AI</span><span>Career Guide</span></a
+        >
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="kariyerler.html">Kariyerler</a></li>
+            <li><a href="yol_haritasi.html">Yol Haritası</a></li>
+            <li><a href="test.html" class="active">Kariyer Testi</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-content">
+          <span class="tag">HTML form ile değerlendirme</span>
+          <h1>Kendi ilgi alanını değerlendir</h1>
+          <p>
+            Bu sayfa JavaScript kullanmadan hazırlanmıştır. Formu doldurarak
+            hangi çalışma biçimlerinin sana daha yakın olduğunu düşünebilir,
+            alttaki yorumlama rehberiyle kariyer alanlarını
+            karşılaştırabilirsin.
+          </p>
+        </div>
+      </section>
+
+      <section class="kariyer-test">
+        <div class="container test-layout">
+          <aside class="test-info">
+            <h2>Formu nasıl kullanmalısın?</h2>
+            <p>
+              Cevaplarını otomatik hesaplayan bir sistem yoktur. Bu proje, ders
+              kapsamına uygun HTML form yapısını göstermek ve öğrencinin kendini
+              değerlendirmesine yardımcı olmak amacıyla hazırlanmıştır.
+            </p>
+            <div class="info-kart">
+              <img src="images/form.png" alt="görsel yüklenemedi" />
+              <h3>Dikkat etmen gerekenler</h3>
+              <ul>
+                <li>Hangi veri türüyle çalışmak istediğini düşün.</li>
+                <li>
+                  Kodlama, analiz, görsel çalışma veya ürünleştirme ilgini
+                  karşılaştır.
+                </li>
+                <li>
+                  Sonucun kesin karar değil, başlangıç fikri olduğunu unutma.
+                </li>
+              </ul>
+            </div>
+          </aside>
+
+          <section class="test-form-box">
+            <form class="test-form" action="#" method="get">
+              <div class="form-grup">
+                <label for="student-name">Ad Soyad</label>
+                <input
+                  type="text"
+                  id="student-name"
+                  name="student-name"
+                  placeholder="Adınızı yazınız"
+                />
+              </div>
+
+              <div class="form-grup">
+                <label for="coding">Kod yazmaya ilgin nasıl?</label>
+                <select id="coding" name="coding" required>
+                  <option value="">Seçim yapınız</option>
+                  <option>Çok ilgimi çekiyor</option>
+                  <option>Orta seviyede ilgimi çekiyor</option>
+                  <option>
+                    Daha çok analiz ve planlama tarafını seviyorum
+                  </option>
+                </select>
+              </div>
+
+              <div class="form-grup">
+                <label for="data"
+                  >Veri analizi ve grafik yorumlama ilgini çeker mi?</label
+                >
+                <select id="data" name="data" required>
+                  <option value="">Seçim yapınız</option>
+                  <option>Evet, verilerden anlam çıkarmayı severim</option>
+                  <option>Kısmen ilgimi çeker</option>
+                  <option>Önceliğim veri analizi değil</option>
+                </select>
+              </div>
+
+              <div class="form-grup">
+                <label for="content-type"
+                  >En çok hangi veri türü ilgini çekiyor?</label
+                >
+                <select id="content-type" name="content-type" required>
+                  <option value="">Seçim yapınız</option>
+                  <option>Tablolar ve sayısal veriler</option>
+                  <option>Metin, konuşma ve chatbotlar</option>
+                  <option>Görüntü ve video verileri</option>
+                  <option>Büyük dil modelleri ve üretken yapay zekâ</option>
+                  <option>Sistem kurma ve modeli yayına alma</option>
+                </select>
+              </div>
+
+              <fieldset class="form-fieldset">
+                <legend>Sana yakın olan ifadeleri işaretle</legend>
+                <label
+                  ><input type="checkbox" name="interest" value="analysis" />
+                  Verileri yorumlamayı severim</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="model" /> Model
+                  geliştirme ve deneme yapma ilgimi çeker</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="language" />
+                  Metin ve dil teknolojileri ilgimi çeker</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="visual" />
+                  Görsel verilerle çalışmak isterim</label
+                >
+                <label
+                  ><input type="checkbox" name="interest" value="deployment" />
+                  Sistem kurma ve uygulama yayınlama ilgimi çeker</label
+                >
+              </fieldset>
+
+              <div class="form-grup">
+                <label for="note">Kısa notun</label>
+                <textarea
+                  id="note"
+                  name="note"
+                  rows="5"
+                  placeholder="Hangi alanı neden merak ettiğini yazabilirsin"
+                ></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn primary-btn">
+                  Formu Kaydet
+                </button>
+                <button type="reset" class="btn secondary-btn">Temizle</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <h3>AI Career Guide</h3>
+          <p>
+            Formu doldur, cevaplarını yorumla ve kariyer alanlarını karşılaştır.
+          </p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 AI Career Guide.</p>
+      </div>
+    </footer>
+  </body>
+</html>

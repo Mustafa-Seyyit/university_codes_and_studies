@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim | AI Career Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/iletisim.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container navbar">
+        <a class="logo" href="index.html"
+          ><span class="logo-yazisi">AI</span><span>Career Guide</span></a
+        >
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="kariyerler.html">Kariyerler</a></li>
+            <li><a href="yol_haritasi.html">Yol Haritası</a></li>
+            <li><a href="test.html">Kariyer Testi</a></li>
+            <li><a href="iletisim.html" class="active">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+      <script src="js/script.js"></script>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-content">
+          <span class="tag">Geri bildirim formu</span>
+          <h1>Proje hakkında görüşünü paylaş</h1>
+          <p>
+            Bu sayfa, proje kapsamında amaca yönelik form kullanımı göstermek
+            için hazırlanmıştır. Form HTML ve CSS ile tasarlanmıştır; veri
+            gönderimi için sunucu tarafı işlem bulunmamaktadır.
+          </p>
+        </div>
+      </section>
+
+      <section class="iletisim-section">
+        <div class="container iletisim-layout">
+          <aside class="contact-info">
+            <img
+              src="images/iletisim.png"
+              alt="görsel yüklenemedi"
+              class="side-image"
+            />
+            <h2>AI Career Guide neyi amaçlar?</h2>
+            <p>
+              Site, yapay zekâ kariyerlerini öğrenciler için daha anlaşılır hale
+              getirir. Meslekleri görevlerine göre ayırır, öğrenme yolunu
+              sadeleştirir ve öğrencinin kendi ilgi alanını düşünmesini sağlar.
+            </p>
+            <div class="iletisim-kart">
+              <h3>Proje kapsamı</h3>
+              <ul>
+                <li>HTML ile sayfa yapısı</li>
+                <li>CSS ve Flexbox ile layout</li>
+                <li>Google Fonts ile harici font kullanımı</li>
+                <li>Kariyer değerlendirme ve iletişim formları</li>
+                <li>JavaScript kullanılmadan hazırlanmış yapı</li>
+              </ul>
+            </div>
+            <div class="iletisim-kart">
+              <h3>Sunumda vurgulanacak nokta</h3>
+              <p>
+                Proje, gerçek bir yapay zekâ modeli çalıştırmaz. Ama yapay zekâ
+                kariyerlerini tanıtmak için anlamlı bir web sitesi arayüzü
+                sunar.
+              </p>
+            </div>
+          </aside>
+
+          <section class="iletisim-form-box">
+            <form class="iletisim-form" action="#" method="get">
+              <div class="form-grup">
+                <label for="fullname">Ad Soyad</label>
+                <input
+                  type="text"
+                  id="fullname"
+                  name="fullname"
+                  placeholder="Adınızı ve soyadınızı giriniz"
+                  required
+                />
+              </div>
+              <div class="form-grup">
+                <label for="email">E-posta</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="E-posta adresinizi giriniz"
+                  required
+                />
+              </div>
+              <div class="form-grup">
+                <label for="topic">Mesaj konusu</label>
+                <select id="topic" name="topic" required>
+                  <option value="">Seçim yapınız</option>
+                  <option>Site tasarımı hakkında görüş</option>
+                  <option>Kariyer içerikleri hakkında öneri</option>
+                  <option>Yol haritası önerisi</option>
+                  <option>Genel geri bildirim</option>
+                </select>
+              </div>
+              <div class="form-grup">
+                <label for="message">Mesajınız</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Görüş veya önerinizi yazınız"
+                  required
+                ></textarea>
+              </div>
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  id="permission"
+                  name="permission"
+                  required
+                />
+                <label for="permission"
+                  >Bu formun proje amaçlı örnek iletişim formu olduğunu kabul
+                  ediyorum.</label
+                >
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn primary-btn">
+                  Mesaj Gönder
+                </button>
+                <button type="reset" class="btn secondary-btn">Temizle</button>
+              </div>
+            </form>
+          </section>
+        </div>
+      </section>
+
+      <section class="sss-section">
+        <div class="container">
+          <div class="bolum-basligi">
+            <span class="tag">Sık sorulan sorular</span>
+            <h2>Projeyi inceleyen biri neyi anlamalı?</h2>
+            <p>
+              Bu bölüm, sitenin amacını ve sınırlarını daha net anlatmak için
+              eklendi.
+            </p>
+          </div>
+          <div class="sss-list">
+            <article class="sss-item">
+              <h3>Bu site gerçek kariyer danışmanlığı yapıyor mu?</h3>
+              <p>
+                Hayır. Site, öğrencilerin yapay zekâ alanlarını tanıması için
+                hazırlanmış bilgilendirici bir web projesidir.
+              </p>
+            </article>
+            <article class="sss-item">
+              <h3>JavaScript neden kullanılmadı?</h3>
+              <p>
+                Proje, işlenen ders konularına uygun kalması için HTML, CSS ve
+                Flexbox temelli hazırlanmıştır.
+              </p>
+            </article>
+            <article class="sss-item">
+              <h3>Formlar veri kaydediyor mu?</h3>
+              <p>
+                Hayır. Formlar arayüz ve HTML form elemanlarını göstermek
+                amacıyla kullanılmıştır.
+              </p>
+            </article>
+            <article class="sss-item">
+              <h3>Görseller değiştirilebilir mi?</h3>
+              <p>
+                Evet. Images klasöründeki geçici görseller istenilen görsellerle
+                değiştirilebilir.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <h3>AI Career Guide</h3>
+          <p>
+            İletişim sayfası, proje gereksinimindeki form kullanımını karşılar.
+          </p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>&copy; 2026 AI Career Guide.</p>
+      </div>
+    </footer>
+  </body>
+</html>

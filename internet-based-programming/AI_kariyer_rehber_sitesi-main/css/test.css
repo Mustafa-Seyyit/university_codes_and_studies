@@ -1,0 +1,107 @@
+/* KARİYER TESTİ */
+
+.kariyer-test {
+  background-color: #0f172a;
+}
+
+.test-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.test-info {
+  flex: 1;
+}
+
+.test-info h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.info-kart {
+  margin-top: 22px;
+  background-color: #1e293b;
+  border: 1px solid rgba(203, 213, 225, 0.18);
+  border-radius: 22px;
+  padding: 24px;
+}
+
+.info-kart img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 18px;
+  margin-top: auto;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.info-kart h3 {
+  margin-bottom: 12px;
+}
+
+.info-kart ul {
+  color: #cbd5e1;
+}
+
+.info-kart li {
+  margin-bottom: 8px;
+}
+
+/* FORM KUTUSU */
+
+.test-form-box {
+  flex: 1.2;
+  background-color: #1e293b;
+  border: 1px solid rgba(203, 213, 225, 0.18);
+  border-radius: 22px;
+  padding: 28px;
+}
+
+.form-fieldset {
+  border: 1px solid rgba(203, 213, 225, 0.18);
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+.form-fieldset legend {
+  color: #38bdf8;
+  padding: 0 8px;
+  font-weight: 600;
+}
+
+.form-fieldset label {
+  display: block;
+  color: #cbd5e1;
+  margin-bottom: 10px;
+}
+
+.form-fieldset input {
+  margin-right: 8px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .test-layout {
+    flex-direction: column;
+  }
+
+  .test-info,
+  .test-form-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .test-info h2 {
+    font-size: 28px;
+  }
+
+  .info-kart,
+  .test-form-box {
+    padding: 22px;
+  }
+}
