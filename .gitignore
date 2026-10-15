@@ -1,1 +1,118 @@
+
+# ============================================================
+# UNIVERSITY CODES AND STUDIES
+# Central .gitignore
+# ============================================================
+
+# 1. PRIVATE INFORMATION AND CREDENTIALS
+
+.env
+.env.*
+*.env
+
+!.env.example
+!.env.sample
+!.env.template
+
+# Private folders
+sifre_ve_bilgiler/
+secrets/
+credentials/
+
+# Streamlit
+**/.streamlit/secrets.toml
+**/.streamlit/credentials.toml
+
+# Google OAuth
+google_dogrulama_verileri.txt
+cookie_secret.txt
+client_secret*.json
+service_account*.json
+credentials.json
+token.json
+tokens.json
+
+# API and cloud credentials
+api_keys.json
+api_keys.txt
+.aws/
+.azure/
+.gcloud/
+.kube/config
+.npmrc
+.pypirc
+
+# Private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+
+
+# 2. PYTHON TEMPORARY FILES
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+virtualenv/
+ENV/
+
+
+# 3. IDE AND EDITOR TEMPORARY FILES
+
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+
+# 4. DEPENDENCY CACHES
+
+node_modules/
+.npm/
+.pnpm-store/
+.gradle/
+.dart_tool/
+
+
+# 5. OPERATING SYSTEM FILES
+
 .DS_Store
+.AppleDouble
+._*
+Thumbs.db
+Desktop.ini
+
+
+# 6. LOGS AND TEMPORARY FILES
+
+*.log
+*.tmp
+*.temp
+
+
+# ============================================================
+# IMPORTANT PROJECT FILES ARE PRESERVED
+#
+# AI/ML models: .pt .pth .onnx .h5 .keras .pkl
+# Databases: .db .sqlite .sqlite3
+# Datasets: .csv .json .xlsx
+# Images: .jpg .png .jpeg
+# Notebooks: .ipynb
+# Documents: .pdf
+# Source code and project configurations
+#
+# All of these can be tracked by Git.
+# ============================================================
