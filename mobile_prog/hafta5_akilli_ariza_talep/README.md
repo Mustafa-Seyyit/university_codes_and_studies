@@ -98,7 +98,7 @@ En az üç ekran görüntüsü şartı için:
 - [Birlikte çalışan arama ve filtre](screenshots/hafta5/06-arama-ve-filtre.png)
 - [Tablet görünümü](screenshots/hafta5/07-tablet.png)
 
-Görseller tarayıcıdaki test kayıtlarıyla alınmıştır. Kişisel taslaklar, üç olay akışı çizimi, öğrenci katkısı ve öz değerlendirme öğrenci tarafından eklenmelidir. GitHub deposu bu çalışma sırasında yayımlanmamıştır; raporda bağlantı için alan bırakılmıştır.
+Görseller tarayıcıdaki test kayıtlarıyla alınmıştır.
 
 ## Resmî belgeler
 
