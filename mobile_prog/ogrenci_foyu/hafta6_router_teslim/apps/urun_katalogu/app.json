@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Mini Ürün Kataloğu",
+    "slug": "urun-katalogu",
+    "scheme": "hafta6-urun",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}

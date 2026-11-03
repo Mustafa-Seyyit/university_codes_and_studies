@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-27",
+  "sourceBackupCheck": [
+    "Özgün hafta5 projesinin 36 dosyası yedek ile byte düzeyinde aynı."
+  ],
+  "builds": [
+    {
+      "app": "ariza_takip",
+      "platform": "android",
+      "bundle": "apps/ariza_takip/dist/_expo/static/js/android/entry-fdbfb190b667fed9183a729e6657a263.hbc",
+      "bytes": 2765359,
+      "sha256": "4c2d5a8a2bf877c4893e4ff8a74407cc5059082d7d250c43dc94b29cb6996844"
+    },
+    {
+      "app": "ariza_takip",
+      "platform": "ios",
+      "bundle": "apps/ariza_takip/dist/_expo/static/js/ios/entry-5b27d0fb850221df8f165d5bca852890.hbc",
+      "bytes": 2468731,
+      "sha256": "d72e60e3478c9393c37df459cbcbb249d1f4a10977241c19726a2e696fc4bcd4"
+    },
+    {
+      "app": "ariza_takip",
+      "platform": "web",
+      "bundle": "apps/ariza_takip/dist/_expo/static/js/web/entry-9482de071222c1b606f94bb245df742f.js",
+      "bytes": 1224704,
+      "sha256": "6528125df6cb35658c330b54ef399a49c2a2aaa31377f6aa2639728635416a85"
+    },
+    {
+      "app": "urun_katalogu",
+      "platform": "android",
+      "bundle": "apps/urun_katalogu/dist/_expo/static/js/android/entry-7053f4df3114efd7f17764df3d70c2d8.hbc",
+      "bytes": 2672344,
+      "sha256": "4e5db3d630cbd8ba0b31edd71e5ab6251eca3e1345799b984db3e4878cef1667"
+    },
+    {
+      "app": "urun_katalogu",
+      "platform": "ios",
+      "bundle": "apps/urun_katalogu/dist/_expo/static/js/ios/entry-60bf4c1b6073f4e1b200669ba1c817ee.hbc",
+      "bytes": 2358781,
+      "sha256": "7741d8409886f331e22363f05dba73ba1aafce7ae9be2c4a9c171c4d9717b469"
+    },
+    {
+      "app": "urun_katalogu",
+      "platform": "web",
+      "bundle": "apps/urun_katalogu/dist/_expo/static/js/web/entry-ef43aa47603164a52dd728c79b5434f6.js",
+      "bytes": 1121524,
+      "sha256": "4d4907aab97976e9029715c5e091c85a5044ec8721f4f6cd82c808388d5636fa"
+    },
+    {
+      "app": "ders_programi",
+      "platform": "android",
+      "bundle": "apps/ders_programi/dist/_expo/static/js/android/entry-8999f79a2d07421435c75855dc9e7a72.hbc",
+      "bytes": 2672025,
+      "sha256": "1c92f638907e302fe601fb8cbcb1deac6436da4173ca54538267e63c526db153"
+    },
+    {
+      "app": "ders_programi",
+      "platform": "ios",
+      "bundle": "apps/ders_programi/dist/_expo/static/js/ios/entry-69621cc5476462e9c4d898c100dc800c.hbc",
+      "bytes": 2358469,
+      "sha256": "c087aff3f2d58ea339c8b84c0bf4cb722c221c16744f1e1ffd08129fda3be612"
+    },
+    {
+      "app": "ders_programi",
+      "platform": "web",
+      "bundle": "apps/ders_programi/dist/_expo/static/js/web/entry-28f3811ec4b44f0b1794855cada6a230.js",
+      "bytes": 1121110,
+      "sha256": "7cfaebb8c32b3a275931982438cd0bb9c5b098da80e5fc9fde09a72b9ae230b5"
+    },
+    {
+      "app": "gorev_takip",
+      "platform": "android",
+      "bundle": "apps/gorev_takip/dist/_expo/static/js/android/entry-63907141b42888f5f80278aa88b963ca.hbc",
+      "bytes": 2714745,
+      "sha256": "58af56516bc5de3a8a310db2e5f15f130b13e3ec7edbb265f7f5cf0e62efbf5b"
+    },
+    {
+      "app": "gorev_takip",
+      "platform": "ios",
+      "bundle": "apps/gorev_takip/dist/_expo/static/js/ios/entry-7a9d4edf2047bf0e5730e690aee8cbce.hbc",
+      "bytes": 2418096,
+      "sha256": "031a34a9d5dc8972f00ca10df5b25011fd422c3952d2822df050805273a9e665"
+    },
+    {
+      "app": "gorev_takip",
+      "platform": "web",
+      "bundle": "apps/gorev_takip/dist/_expo/static/js/web/entry-73ea0b2cce64bc8f59ae9a57db38eda9.js",
+      "bytes": 1182761,
+      "sha256": "bb5d53cdba81fcb20e6e731f99bde67f6290ef0e94de0eda5278a15a6f7a753f"
+    }
+  ]
+}

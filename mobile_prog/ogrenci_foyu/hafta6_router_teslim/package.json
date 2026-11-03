@@ -1,0 +1,49 @@
+{
+  "name": "hafta6-router-teslim",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "expo": "~57.0.30",
+    "expo-constants": "~57.0.22",
+    "expo-font": "~57.0.4",
+    "expo-linking": "~57.0.13",
+    "expo-router": "~57.0.29",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-reanimated": "4.5.1",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-web": "^0.21.2",
+    "react-native-worklets": "0.10.1"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "node tests/e2e.mjs",
+    "lint": "eslint apps tests",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm test",
+    "ariza": "npm run start --workspace=ariza-takip",
+    "ariza:web": "npm run web --workspace=ariza-takip",
+    "urun": "npm run start --workspace=urun-katalogu",
+    "urun:web": "npm run web --workspace=urun-katalogu",
+    "ders": "npm run start --workspace=ders-programi",
+    "ders:web": "npm run web --workspace=ders-programi",
+    "gorev": "npm run start --workspace=gorev-takip",
+    "gorev:web": "npm run web --workspace=gorev-takip",
+    "export": "npm run export --workspaces"
+  },
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "eslint-config-expo": "~57.0.2",
+    "typescript": "~6.0.3",
+    "@types/react": "~19.2.4",
+    "@playwright/test": "^1.56.0"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Ders Programı",
+    "slug": "ders-programi",
+    "scheme": "hafta6-ders",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}

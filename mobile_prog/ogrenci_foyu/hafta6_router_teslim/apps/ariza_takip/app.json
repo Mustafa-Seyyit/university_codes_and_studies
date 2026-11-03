@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Arıza Takip",
+    "slug": "ariza-takip",
+    "scheme": "hafta6-ariza",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
