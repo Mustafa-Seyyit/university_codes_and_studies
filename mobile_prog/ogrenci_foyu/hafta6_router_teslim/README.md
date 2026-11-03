@@ -41,21 +41,3 @@ node tests/serve.mjs
 
 Ardından [Arıza](http://127.0.0.1:8091), [Ürün](http://127.0.0.1:8092), [Ders](http://127.0.0.1:8093), [Görev](http://127.0.0.1:8094) önizlemelerini açın. Sunucuyu Ctrl+C ile kapatın. `dist` klasörleri dağıtım ZIP'ine dahil değildir; export komutu üretir.
 
-## Dosyalar
-
-- [Öncelikli plan](docs/PLAN.md)
-- [Föy ile gereksinim eşleştirmesi](docs/SAGLAMA.md)
-- [Test tablosu ve doğrulama sınırları](docs/TEST_TABLOSU.md)
-- [Kısa rapor, hata notu, AI katkısı](docs/RAPOR.md)
-- [Ekran görüntüleri](docs/EKRAN_GORUNTULERI.md)
-- [Makine tarafından üretilen E2E sonuçları](docs/test-sonuclari.json)
-- [Kaynak föy](docs/KAYNAK_FOY.md)
-- [Önceki haftanın kaynak yedeği](docs/hafta5_kaynak_yedegi.zip)
-
-## Veri ve korunan davranışlar
-
-Arızalar ve görevler uygulama belleğinde tutulur; sayfa yenilenince veya uygulama yeniden başlatılınca örnek kayıtlara döner. Yeni arıza taslağı, liste araması ve durum filtresi ekran geçişlerinde korunur. Yeni kayıt en başa eklenir. Birim alanı konum olarak kullanılır. Arızalar `101`, `102`, `103`; ürünler `p1`–`p5`; dersler `d1`–`d4` kimliklerini kullanır.
-
-Önceki haftanın formu ve liste görünümü `/onceki-ekran` rotasında da korunur. Bu arşiv görünümü kendi eski durumuyla çalışır; ana uygulamanın kayıtlarıyla ortak değildir. Ana uygulamadaki Yeni Arıza, liste ve detay ekranları ise aynı Context verisini paylaşır.
-
-Föyün öğrenciye bıraktığı kişisel onay ve değerlendirmeler için [rapordaki açıklamayı](docs/RAPOR.md) okuyun. Öğrenci adı/numarası ve öğrenci tarafından yazılmış kişisel deneyim uydurulmamıştır.
